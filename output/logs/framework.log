@@ -1,0 +1,1359 @@
+2025-10-08 00:28:07 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 00:28:09 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 00:28:09 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 00:28:21 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 00:28:21 [main] INFO  com.orangehrm.tests.LeaveTests - Logged in and ready for Leave module tests
+2025-10-08 00:28:23 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:28:23 [main] INFO  com.orangehrm.pages.LeavePage - Opened Leave module
+2025-10-08 00:28:56 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:29:07 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:29:30 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:30:12 [main] INFO  com.orangehrm.pages.LeavePage - Apply form controls are NOT available (known site issue).
+2025-10-08 00:30:16 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:30:16 [main] INFO  com.orangehrm.pages.LeavePage - Opened Leave module
+2025-10-08 00:30:49 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:31:01 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:31:24 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:32:46 [main] ERROR com.orangehrm.pages.LeavePage - Assign Leave failed: Expected condition failed: waiting for visibility of element located by By.xpath: //textarea[@placeholder='Type here'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25164, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 670d292a-97af-48c0-b91f-a16e7c155a28
+2025-10-08 00:32:47 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:32:47 [main] INFO  com.orangehrm.pages.LeavePage - Opened Leave module
+2025-10-08 00:33:21 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:33:32 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:33:54 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:35:19 [main] WARN  com.orangehrm.pages.LeavePage - My Leave search produced no visible rows or failed: Expected condition failed: waiting for presence of any elements located by By.xpath: //div[contains(@class,'oxd-table-body')]/div (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25164, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 670d292a-97af-48c0-b91f-a16e7c155a28
+2025-10-08 00:35:22 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:35:22 [main] INFO  com.orangehrm.pages.LeavePage - Opened Leave module
+2025-10-08 00:35:58 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:36:10 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:36:32 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:37:04 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:37:04 [main] INFO  com.orangehrm.pages.LeavePage - Opened Leave module
+2025-10-08 00:37:39 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:37:51 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:38:15 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (670d292a-97af-48c0-b91f-a16e7c155a28)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 00:38:45 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveApply
+2025-10-08 00:38:46 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveApply' not found in file: classpath:testdata.xlsx
+2025-10-08 00:38:46 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveAssign
+2025-10-08 00:38:46 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveAssign' not found in file: classpath:testdata.xlsx
+2025-10-08 00:38:48 [main] INFO  com.orangehrm.tests.LeaveTests - 🧹 Browser closed after Leave module tests.
+2025-10-08 01:07:36 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: PIM
+2025-10-08 01:07:38 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: PIM (1 rows, 6 cols trimmed)
+2025-10-08 01:07:48 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:07:48 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:07:48 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:08:00 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:08:00 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:08:02 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (3b00f620-80bc-4ab1-adf0-b1df462ccf1a)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:08:02 [main] INFO  com.orangehrm.tests.PIMTests - 🔐 Logged in and opened PIM.
+2025-10-08 01:08:02 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testAddEmployee
+2025-10-08 01:08:02 [main] INFO  com.orangehrm.tests.PIMTests - Running testAddEmployee for employee: Musthafa Sheik
+2025-10-08 01:08:02 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:08:04 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (3b00f620-80bc-4ab1-adf0-b1df462ccf1a)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:08:04 [main] INFO  com.orangehrm.pages.PIMPage - Clicking Add Employee
+2025-10-08 01:08:15 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Add']'
+2025-10-08 01:08:15 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Musthafa
+2025-10-08 01:08:15 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Sheik
+2025-10-08 01:08:16 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Sheik
+2025-10-08 01:08:16 [main] INFO  com.orangehrm.pages.BasePage - Typing text: 112757779
+2025-10-08 01:08:16 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (3b00f620-80bc-4ab1-adf0-b1df462ccf1a)] -> xpath: //span[contains(@class,'oxd-switch-input')]]
+2025-10-08 01:08:16 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei
+2025-10-08 01:08:16 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei1@
+2025-10-08 01:08:16 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei1@
+2025-10-08 01:08:16 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (3b00f620-80bc-4ab1-adf0-b1df462ccf1a)] -> xpath: //button[normalize-space()='Save']]
+2025-10-08 01:08:19 [main] INFO  com.orangehrm.pages.PIMPage - Employee saved (toast visible)
+2025-10-08 01:08:19 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testAddEmployee
+2025-10-08 01:08:19 [main] INFO  com.orangehrm.tests.PIMTests - === Test 'testAddEmployee' completed with status: PASS ===
+2025-10-08 01:08:20 [main] INFO  com.orangehrm.tests.PIMTests - Browser closed after test.
+2025-10-08 01:08:26 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:08:28 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:08:29 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:08:41 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:08:41 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:08:43 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (d682154a-f35c-4afc-bf22-d774d241dadb)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:08:43 [main] INFO  com.orangehrm.tests.PIMTests - 🔐 Logged in and opened PIM.
+2025-10-08 01:08:43 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testEmployeeListView
+2025-10-08 01:08:43 [main] INFO  com.orangehrm.tests.PIMTests - Running testEmployeeListView
+2025-10-08 01:08:43 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:08:45 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (d682154a-f35c-4afc-bf22-d774d241dadb)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:08:45 [main] INFO  com.orangehrm.pages.PIMPage - Navigating to Employee List
+2025-10-08 01:08:48 [main] INFO  com.orangehrm.tests.PIMTests - Buttons available: [Upgrade, Reset, Search, Add]
+2025-10-08 01:08:48 [main] INFO  com.orangehrm.tests.PIMTests - Table Headers: [Id, First (& Middle) Name, Last Name, Job Title, Employment Status, Sub Unit, Supervisor, Actions]
+2025-10-08 01:08:48 [main] INFO  com.orangehrm.tests.PIMTests - Total employee records found: 7
+2025-10-08 01:08:48 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testEmployeeListView
+2025-10-08 01:08:48 [main] INFO  com.orangehrm.tests.PIMTests - === Test 'testEmployeeListView' completed with status: PASS ===
+2025-10-08 01:08:49 [main] INFO  com.orangehrm.tests.PIMTests - Browser closed after test.
+2025-10-08 01:08:49 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: PIM
+2025-10-08 01:08:49 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: PIM (1 rows, 6 cols trimmed)
+2025-10-08 01:08:57 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:08:58 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:08:59 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:09:11 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:09:11 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:09:13 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (51c5b001-68e9-47fe-afb2-3e50153b3e1c)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:09:13 [main] INFO  com.orangehrm.tests.PIMTests - 🔐 Logged in and opened PIM.
+2025-10-08 01:09:13 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testEmployeeSearchFunctionality
+2025-10-08 01:09:13 [main] INFO  com.orangehrm.tests.PIMTests - Running testEmployeeSearchFunctionality for employee ID: 112757779
+2025-10-08 01:09:13 [main] INFO  com.orangehrm.pages.PIMPage - Navigating to Employee List
+2025-10-08 01:09:15 [main] INFO  com.orangehrm.pages.PIMPage - Navigating to Employee List
+2025-10-08 01:09:16 [main] INFO  com.orangehrm.pages.BasePage - Typing text: 112757779
+2025-10-08 01:09:17 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (51c5b001-68e9-47fe-afb2-3e50153b3e1c)] -> xpath: //button[normalize-space()='Search']]
+2025-10-08 01:09:18 [main] INFO  com.orangehrm.pages.PIMPage - Found employee '112757779' in table.
+2025-10-08 01:09:18 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testEmployeeSearchFunctionality
+2025-10-08 01:09:18 [main] INFO  com.orangehrm.tests.PIMTests - === Test 'testEmployeeSearchFunctionality' completed with status: PASS ===
+2025-10-08 01:09:19 [main] INFO  com.orangehrm.tests.PIMTests - Browser closed after test.
+2025-10-08 01:09:19 [main] INFO  com.orangehrm.listeners.TestListener - TEST EXECUTION FINISHED. Extent report generated.
+2025-10-08 01:10:00 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: Admin
+2025-10-08 01:10:01 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: Admin (1 rows, 12 cols trimmed)
+2025-10-08 01:10:08 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:10:09 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:10:09 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:10:21 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:10:22 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (5b7b3f01-9070-4e64-9f9a-9022afc9741e)] -> xpath: //span[normalize-space()='Admin']]
+2025-10-08 01:10:22 [main] INFO  com.orangehrm.pages.AdminPage - Opened Admin module (System Users page visible).
+2025-10-08 01:10:22 [main] INFO  com.orangehrm.tests.AdminTests - Logged in successfully and opened Admin module.
+2025-10-08 01:10:22 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyUserManagementFunctionality
+2025-10-08 01:10:22 [main] INFO  com.orangehrm.tests.AdminTests - Running verifyUserManagementFunctionality for username: muysheiu
+2025-10-08 01:10:22 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (5b7b3f01-9070-4e64-9f9a-9022afc9741e)] -> xpath: //span[normalize-space()='User Management']]
+2025-10-08 01:10:22 [main] INFO  com.orangehrm.pages.AdminPage - Navigated to User Management (System Users).
+2025-10-08 01:10:33 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Add']'
+2025-10-08 01:10:34 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Musthafa Sheik Sheik
+2025-10-08 01:10:35 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (5b7b3f01-9070-4e64-9f9a-9022afc9741e)] -> xpath: //div[@role='listbox']//div[@role='option'][contains(.,'Musthafa Sheik Sheik')]]
+2025-10-08 01:10:35 [main] INFO  com.orangehrm.pages.AdminPage - Selected employee suggestion for 'Musthafa Sheik Sheik'
+2025-10-08 01:10:35 [main] INFO  com.orangehrm.pages.BasePage - Typing text: muysheiu1@
+2025-10-08 01:10:35 [main] INFO  com.orangehrm.pages.BasePage - Typing text: muysheiu1@
+2025-10-08 01:10:35 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (5b7b3f01-9070-4e64-9f9a-9022afc9741e)] -> xpath: //button[normalize-space()='Save']]
+2025-10-08 01:10:38 [main] INFO  com.orangehrm.pages.BasePage - Toast displayed with text: Success
+Successfully Saved
+×
+2025-10-08 01:10:51 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (5b7b3f01-9070-4e64-9f9a-9022afc9741e)] -> xpath: //button[@type='submit' and normalize-space()='Search']]
+2025-10-08 01:11:01 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyUserManagementFunctionality
+2025-10-08 01:11:01 [main] INFO  com.orangehrm.tests.AdminTests - === Test 'verifyUserManagementFunctionality' completed with status: PASS ===
+2025-10-08 01:11:02 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: Admin
+2025-10-08 01:11:02 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: Admin (1 rows, 12 cols trimmed)
+2025-10-08 01:11:08 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:11:09 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:11:09 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:11:21 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:11:23 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (e9a0f3d8-4c5c-4716-809e-ee2c71af4097)] -> xpath: //span[normalize-space()='Admin']]
+2025-10-08 01:11:23 [main] INFO  com.orangehrm.pages.AdminPage - Opened Admin module (System Users page visible).
+2025-10-08 01:11:23 [main] INFO  com.orangehrm.tests.AdminTests - Logged in successfully and opened Admin module.
+2025-10-08 01:11:23 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyJobTitlesManagement
+2025-10-08 01:11:23 [main] INFO  com.orangehrm.tests.AdminTests - Running verifyJobTitlesManagement for job title: CMT-Quality Engineer
+2025-10-08 01:11:23 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (e9a0f3d8-4c5c-4716-809e-ee2c71af4097)] -> xpath: //span[normalize-space()='Job']]
+2025-10-08 01:11:23 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (e9a0f3d8-4c5c-4716-809e-ee2c71af4097)] -> xpath: //a[normalize-space()='Job Titles']]
+2025-10-08 01:11:34 [main] INFO  com.orangehrm.pages.AdminPage - Navigated Job → Job Titles.
+2025-10-08 01:11:45 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Add']'
+2025-10-08 01:11:45 [main] INFO  com.orangehrm.pages.BasePage - Typing text: CMT-Quality Engineer
+2025-10-08 01:11:45 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Develops and maintains automated test scripts to ensure software quality...
+2025-10-08 01:11:46 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (e9a0f3d8-4c5c-4716-809e-ee2c71af4097)] -> xpath: //button[normalize-space()='Save']]
+2025-10-08 01:11:47 [main] INFO  com.orangehrm.pages.BasePage - Toast displayed with text: Success
+Successfully Saved
+×
+2025-10-08 01:12:00 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (e9a0f3d8-4c5c-4716-809e-ee2c71af4097)] -> xpath: //span[normalize-space()='Job']]
+2025-10-08 01:12:00 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (e9a0f3d8-4c5c-4716-809e-ee2c71af4097)] -> xpath: //a[normalize-space()='Job Titles']]
+2025-10-08 01:12:11 [main] INFO  com.orangehrm.pages.AdminPage - Navigated Job → Job Titles.
+2025-10-08 01:12:11 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyJobTitlesManagement
+2025-10-08 01:12:11 [main] INFO  com.orangehrm.tests.AdminTests - === Test 'verifyJobTitlesManagement' completed with status: PASS ===
+2025-10-08 01:12:12 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: Admin
+2025-10-08 01:12:12 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: Admin (1 rows, 12 cols trimmed)
+2025-10-08 01:12:18 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:12:19 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:12:19 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:12:32 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:12:34 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (033314c7-b8b9-4b80-a008-8818875c93fd)] -> xpath: //span[normalize-space()='Admin']]
+2025-10-08 01:12:34 [main] INFO  com.orangehrm.pages.AdminPage - Opened Admin module (System Users page visible).
+2025-10-08 01:12:34 [main] INFO  com.orangehrm.tests.AdminTests - Logged in successfully and opened Admin module.
+2025-10-08 01:12:34 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyPayGradesManagement
+2025-10-08 01:12:34 [main] INFO  com.orangehrm.tests.AdminTests - Running verifyPayGradesManagement for pay grade: CMT - LEVEL -2
+2025-10-08 01:12:36 [main] INFO  com.orangehrm.pages.AdminPage - Navigated Job → Pay Grades.
+2025-10-08 01:12:41 [main] INFO  com.orangehrm.pages.BasePage - Toast displayed with text: Info
+No Records Found
+×
+2025-10-08 01:12:41 [main] INFO  com.orangehrm.pages.BasePage - Toast displayed with text: Info
+No Records Found
+×
+2025-10-08 01:13:46 [main] ERROR com.orangehrm.pages.AdminPage - Could not open Pay Grade detail for 'CMT - LEVEL -2'
+2025-10-08 01:13:46 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyPayGradesManagement | Screenshot saved at: output/screenshots/verifyPayGradesManagement_20251008_011346.png
+java.lang.AssertionError: Failed to add pay grade with currency and salary range expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at com.orangehrm.tests.AdminTests.verifyPayGradesManagement(AdminTests.java:118) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:13:46 [main] INFO  com.orangehrm.tests.AdminTests - === Test 'verifyPayGradesManagement' completed with status: FAIL ===
+2025-10-08 01:13:48 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: Admin
+2025-10-08 01:13:48 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: Admin (1 rows, 12 cols trimmed)
+2025-10-08 01:13:56 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:13:56 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:13:56 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:14:08 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:14:10 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (ce3caf22-aa5d-4fa7-b790-2ac54b88e087)] -> xpath: //span[normalize-space()='Admin']]
+2025-10-08 01:14:10 [main] INFO  com.orangehrm.pages.AdminPage - Opened Admin module (System Users page visible).
+2025-10-08 01:14:10 [main] INFO  com.orangehrm.tests.AdminTests - Logged in successfully and opened Admin module.
+2025-10-08 01:14:10 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyEmploymentStatusManagement
+2025-10-08 01:14:10 [main] INFO  com.orangehrm.tests.AdminTests - Running verifyEmploymentStatusManagement for status: CMT-Full-Time Permanent
+2025-10-08 01:14:10 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (ce3caf22-aa5d-4fa7-b790-2ac54b88e087)] -> xpath: //span[normalize-space()='Job']]
+2025-10-08 01:14:11 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (ce3caf22-aa5d-4fa7-b790-2ac54b88e087)] -> xpath: //a[normalize-space()='Employment Status']]
+2025-10-08 01:14:22 [main] INFO  com.orangehrm.pages.AdminPage - Navigated Job → Employment Status.
+2025-10-08 01:14:32 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Add']'
+2025-10-08 01:14:32 [main] INFO  com.orangehrm.pages.BasePage - Typing text: CMT-Full-Time Permanent
+2025-10-08 01:14:32 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (ce3caf22-aa5d-4fa7-b790-2ac54b88e087)] -> xpath: //button[normalize-space()='Save']]
+2025-10-08 01:14:34 [main] INFO  com.orangehrm.pages.BasePage - Toast displayed with text: Success
+Successfully Saved
+×
+2025-10-08 01:14:47 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (ce3caf22-aa5d-4fa7-b790-2ac54b88e087)] -> xpath: //span[normalize-space()='Job']]
+2025-10-08 01:14:47 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (ce3caf22-aa5d-4fa7-b790-2ac54b88e087)] -> xpath: //a[normalize-space()='Employment Status']]
+2025-10-08 01:14:58 [main] INFO  com.orangehrm.pages.AdminPage - Navigated Job → Employment Status.
+2025-10-08 01:14:58 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyEmploymentStatusManagement
+2025-10-08 01:14:58 [main] INFO  com.orangehrm.tests.AdminTests - === Test 'verifyEmploymentStatusManagement' completed with status: PASS ===
+2025-10-08 01:15:04 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:15:05 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:15:05 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:15:19 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:15:20 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (8eb8d945-fc27-4ec9-8a5e-8f13542cb6ee)] -> xpath: //span[normalize-space()='Admin']]
+2025-10-08 01:15:20 [main] INFO  com.orangehrm.pages.AdminPage - Opened Admin module (System Users page visible).
+2025-10-08 01:15:20 [main] INFO  com.orangehrm.tests.AdminTests - Logged in successfully and opened Admin module.
+2025-10-08 01:15:20 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyOrganizationStructure
+2025-10-08 01:15:20 [main] INFO  com.orangehrm.tests.AdminTests - Running verifyOrganizationStructure
+2025-10-08 01:15:20 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (8eb8d945-fc27-4ec9-8a5e-8f13542cb6ee)] -> xpath: //span[normalize-space()='Organization']]
+2025-10-08 01:15:31 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Structure']'
+2025-10-08 01:15:31 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyOrganizationStructure
+2025-10-08 01:15:31 [main] INFO  com.orangehrm.tests.AdminTests - === Test 'verifyOrganizationStructure' completed with status: PASS ===
+2025-10-08 01:15:32 [main] INFO  com.orangehrm.listeners.TestListener - TEST EXECUTION FINISHED. Extent report generated.
+2025-10-08 01:15:57 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:15:57 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:15:58 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:16:09 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:16:09 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyApply_Smart
+2025-10-08 01:16:11 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (15e30f8b-d955-41d6-a805-3c56702477b8)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:16:53 [main] INFO  com.orangehrm.pages.LeavePage - Apply page shows 'No Leave Types with Leave Balance' — marking as PASS per requirement.
+2025-10-08 01:16:54 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyApply_Smart
+2025-10-08 01:16:54 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveApply
+2025-10-08 01:16:55 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveApply' not found in file: classpath:testdata.xlsx
+2025-10-08 01:16:55 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyAssign_Basic
+2025-10-08 01:16:56 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (15e30f8b-d955-41d6-a805-3c56702477b8)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:18:29 [main] ERROR com.orangehrm.pages.LeavePage - Assign flow error: Expected condition failed: waiting for visibility of element located by By.xpath: //textarea[@placeholder='Type here'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24412, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 15e30f8b-d955-41d6-a805-3c56702477b8
+2025-10-08 01:18:29 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyAssign_Basic | Screenshot saved at: output/screenshots/verifyAssign_Basic_20251008_011829.png
+java.lang.AssertionError: Assign leave failed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at com.orangehrm.tests.LeaveTests.verifyAssign_Basic(LeaveTests.java:77) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:18:29 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveAssign
+2025-10-08 01:18:29 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveAssign' not found in file: classpath:testdata.xlsx
+2025-10-08 01:18:29 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyMyLeave_FromSheet
+2025-10-08 01:18:29 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'MyLeave' not found in file: classpath:testdata.xlsx
+2025-10-08 01:18:30 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyMyLeave_FromSheet | Screenshot saved at: output/screenshots/verifyMyLeave_FromSheet_20251008_011830.png
+org.openqa.selenium.ElementClickInterceptedException: Element <span class="oxd-text oxd-text--span oxd-main-menu-item--name"> is not clickable at point (71,252) because another element <div class="oxd-dialog-container-default--inner"> obscures it
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [15e30f8b-d955-41d6-a805-3c56702477b8, clickElement {id=882a2460-1343-45e6-a85a-9ccb9f46c422}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24412, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (15e30f8b-d955-41d6-a805-3c56702477b8)] -> xpath: //span[normalize-space()='Leave']]
+Session ID: 15e30f8b-d955-41d6-a805-3c56702477b8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.25.0.jar:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.BasePage.click(BasePage.java:39) ~[classes/:?]
+	at com.orangehrm.pages.LeavePage.openTopBar(LeavePage.java:93) ~[classes/:?]
+	at com.orangehrm.pages.LeavePage.myLeaveHasRows(LeavePage.java:216) ~[classes/:?]
+	at com.orangehrm.tests.LeaveTests.verifyMyLeave_FromSheet(LeaveTests.java:107) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:18:30 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyEntitlements_LeaveTypesList
+2025-10-08 01:18:30 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyEntitlements_LeaveTypesList | Screenshot saved at: output/screenshots/verifyEntitlements_LeaveTypesList_20251008_011830.png
+org.openqa.selenium.ElementClickInterceptedException: Element <span class="oxd-text oxd-text--span oxd-main-menu-item--name"> is not clickable at point (71,252) because another element <div class="oxd-dialog-container-default--inner"> obscures it
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [15e30f8b-d955-41d6-a805-3c56702477b8, clickElement {id=882a2460-1343-45e6-a85a-9ccb9f46c422}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24412, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (15e30f8b-d955-41d6-a805-3c56702477b8)] -> xpath: //span[normalize-space()='Leave']]
+Session ID: 15e30f8b-d955-41d6-a805-3c56702477b8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.25.0.jar:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.BasePage.click(BasePage.java:39) ~[classes/:?]
+	at com.orangehrm.pages.LeavePage.openTopBar(LeavePage.java:93) ~[classes/:?]
+	at com.orangehrm.pages.LeavePage.listEntitlementLeaveTypes(LeavePage.java:238) ~[classes/:?]
+	at com.orangehrm.tests.LeaveTests.verifyEntitlements_LeaveTypesList(LeaveTests.java:114) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:18:30 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyReports_LeaveBalance
+2025-10-08 01:18:30 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveEntitlements' not found in file: classpath:testdata.xlsx
+2025-10-08 01:18:30 [main] WARN  com.orangehrm.pages.LeavePage - Leave Balance report failed: Element <span class="oxd-text oxd-text--span oxd-main-menu-item--name"> is not clickable at point (71,252) because another element <div class="oxd-dialog-container-default--inner"> obscures it
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [15e30f8b-d955-41d6-a805-3c56702477b8, clickElement {id=882a2460-1343-45e6-a85a-9ccb9f46c422}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24412, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (15e30f8b-d955-41d6-a805-3c56702477b8)] -> xpath: //span[normalize-space()='Leave']]
+Session ID: 15e30f8b-d955-41d6-a805-3c56702477b8
+2025-10-08 01:18:30 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyReports_LeaveBalance | Screenshot saved at: output/screenshots/verifyReports_LeaveBalance_20251008_011830.png
+java.lang.AssertionError: Report did not render. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at com.orangehrm.tests.LeaveTests.verifyReports_LeaveBalance(LeaveTests.java:149) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:18:31 [main] INFO  com.orangehrm.listeners.TestListener - TEST EXECUTION FINISHED. Extent report generated.
+2025-10-08 01:24:34 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:24:34 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:24:34 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:24:46 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:24:46 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyApply_Smart
+2025-10-08 01:24:57 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (495df85c-2443-4e7b-a83a-6d69f814a6f6)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:25:40 [main] INFO  com.orangehrm.pages.LeavePage - Apply page shows 'No Leave Types with Leave Balance' — marking as PASS per requirement.
+2025-10-08 01:25:40 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyApply_Smart
+2025-10-08 01:25:40 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveApply
+2025-10-08 01:25:41 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveApply' not found in file: classpath:testdata.xlsx
+2025-10-08 01:25:41 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyAssign_Basic
+2025-10-08 01:25:52 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (495df85c-2443-4e7b-a83a-6d69f814a6f6)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:27:26 [main] ERROR com.orangehrm.pages.LeavePage - Assign flow error: Expected condition failed: waiting for visibility of element located by By.xpath: //textarea[@placeholder='Type here'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10560, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 495df85c-2443-4e7b-a83a-6d69f814a6f6
+2025-10-08 01:27:26 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyAssign_Basic | Screenshot saved at: output/screenshots/verifyAssign_Basic_20251008_012726.png
+java.lang.AssertionError: Assign leave failed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at com.orangehrm.tests.LeaveTests.verifyAssign_Basic(LeaveTests.java:77) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:27:26 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveAssign
+2025-10-08 01:27:26 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveAssign' not found in file: classpath:testdata.xlsx
+2025-10-08 01:27:26 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyMyLeave_FromSheet
+2025-10-08 01:27:26 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'MyLeave' not found in file: classpath:testdata.xlsx
+2025-10-08 01:27:56 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyMyLeave_FromSheet | Screenshot saved at: output/screenshots/verifyMyLeave_FromSheet_20251008_012756.png
+org.openqa.selenium.ElementClickInterceptedException: Element <span class="oxd-text oxd-text--span oxd-main-menu-item--name"> is not clickable at point (71,252) because another element <div class="oxd-dialog-container-default--inner"> obscures it
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [495df85c-2443-4e7b-a83a-6d69f814a6f6, clickElement {id=67a4e35f-ebb6-43a5-ac4c-ebe48637d0d7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10560, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (495df85c-2443-4e7b-a83a-6d69f814a6f6)] -> xpath: //span[normalize-space()='Leave']]
+Session ID: 495df85c-2443-4e7b-a83a-6d69f814a6f6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.25.0.jar:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.BasePage.click(BasePage.java:39) ~[classes/:?]
+	at com.orangehrm.pages.LeavePage.openTopBar(LeavePage.java:140) ~[classes/:?]
+	at com.orangehrm.pages.LeavePage.myLeaveHasRows(LeavePage.java:268) ~[classes/:?]
+	at com.orangehrm.tests.LeaveTests.verifyMyLeave_FromSheet(LeaveTests.java:107) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:27:56 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyEntitlements_LeaveTypesList
+2025-10-08 01:28:27 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyEntitlements_LeaveTypesList | Screenshot saved at: output/screenshots/verifyEntitlements_LeaveTypesList_20251008_012827.png
+org.openqa.selenium.ElementClickInterceptedException: Element <span class="oxd-text oxd-text--span oxd-main-menu-item--name"> is not clickable at point (71,252) because another element <div class="oxd-dialog-container-default--inner"> obscures it
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [495df85c-2443-4e7b-a83a-6d69f814a6f6, clickElement {id=67a4e35f-ebb6-43a5-ac4c-ebe48637d0d7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10560, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (495df85c-2443-4e7b-a83a-6d69f814a6f6)] -> xpath: //span[normalize-space()='Leave']]
+Session ID: 495df85c-2443-4e7b-a83a-6d69f814a6f6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76) ~[selenium-remote-driver-4.25.0.jar:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy34.click(Unknown Source) ~[?:?]
+	at com.orangehrm.pages.BasePage.click(BasePage.java:39) ~[classes/:?]
+	at com.orangehrm.pages.LeavePage.openTopBar(LeavePage.java:140) ~[classes/:?]
+	at com.orangehrm.pages.LeavePage.listEntitlementLeaveTypes(LeavePage.java:290) ~[classes/:?]
+	at com.orangehrm.tests.LeaveTests.verifyEntitlements_LeaveTypesList(LeaveTests.java:114) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:28:27 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyReports_LeaveBalance
+2025-10-08 01:28:27 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveEntitlements' not found in file: classpath:testdata.xlsx
+2025-10-08 01:28:57 [main] WARN  com.orangehrm.pages.LeavePage - Leave Balance report failed: Element <span class="oxd-text oxd-text--span oxd-main-menu-item--name"> is not clickable at point (71,252) because another element <div class="oxd-dialog-container-default--inner"> obscures it
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [495df85c-2443-4e7b-a83a-6d69f814a6f6, clickElement {id=67a4e35f-ebb6-43a5-ac4c-ebe48637d0d7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10560, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (495df85c-2443-4e7b-a83a-6d69f814a6f6)] -> xpath: //span[normalize-space()='Leave']]
+Session ID: 495df85c-2443-4e7b-a83a-6d69f814a6f6
+2025-10-08 01:28:57 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyReports_LeaveBalance | Screenshot saved at: output/screenshots/verifyReports_LeaveBalance_20251008_012857.png
+java.lang.AssertionError: Report did not render. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at com.orangehrm.tests.LeaveTests.verifyReports_LeaveBalance(LeaveTests.java:149) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:28:58 [main] INFO  com.orangehrm.listeners.TestListener - TEST EXECUTION FINISHED. Extent report generated.
+2025-10-08 01:31:32 [main] INFO  com.orangehrm.tests.LoginTests - === Starting new test session ===
+2025-10-08 01:31:32 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testValidLogin
+2025-10-08 01:31:32 [main] INFO  com.orangehrm.tests.LoginTests - Running: testValidLogin
+2025-10-08 01:31:32 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:31:33 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:31:33 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:31:44 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:31:44 [main] INFO  com.orangehrm.pages.DashboardPage - Dashboard header visible: true
+2025-10-08 01:31:44 [main] INFO  com.orangehrm.pages.LoginPage - Logging out...
+2025-10-08 01:31:45 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (6d335f91-01d5-434f-a874-0e6cfb2bbaaf)] -> xpath: //i[contains(@class,'oxd-userdropdown-icon')]]
+2025-10-08 01:31:56 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Logout']'
+2025-10-08 01:31:56 [main] INFO  com.orangehrm.pages.LoginPage - Successfully logged out.
+2025-10-08 01:31:56 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testValidLogin
+2025-10-08 01:31:56 [main] INFO  com.orangehrm.tests.LoginTests - === Test 'testValidLogin' completed with status: PASS ===
+2025-10-08 01:31:57 [main] INFO  com.orangehrm.data.TestDataProvider - Providing static data for invalid username login test
+2025-10-08 01:32:03 [main] INFO  com.orangehrm.tests.LoginTests - === Starting new test session ===
+2025-10-08 01:32:03 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testInvalidUsername
+2025-10-08 01:32:03 [main] INFO  com.orangehrm.tests.LoginTests - Running: testInvalidUsername with username='InvalidUser'
+2025-10-08 01:32:03 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: InvalidUser
+2025-10-08 01:32:03 [main] INFO  com.orangehrm.pages.BasePage - Typing text: InvalidUser
+2025-10-08 01:32:03 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:32:05 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (e5fa33a7-2e4b-4bf2-b6da-d52b89e8d0ba)] -> xpath: //button[@type='submit']]
+2025-10-08 01:32:05 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testInvalidUsername
+2025-10-08 01:32:05 [main] INFO  com.orangehrm.tests.LoginTests - === Test 'testInvalidUsername' completed with status: PASS ===
+2025-10-08 01:32:06 [main] INFO  com.orangehrm.data.TestDataProvider - Providing static data for invalid password login test
+2025-10-08 01:32:13 [main] INFO  com.orangehrm.tests.LoginTests - === Starting new test session ===
+2025-10-08 01:32:13 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testInvalidPassword
+2025-10-08 01:32:13 [main] INFO  com.orangehrm.tests.LoginTests - Running: testInvalidPassword with password='wrongPwd'
+2025-10-08 01:32:13 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:32:13 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:32:13 [main] INFO  com.orangehrm.pages.BasePage - Typing text: wrongPwd
+2025-10-08 01:32:16 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (f58efe4f-ffca-437e-8d1d-7889b242e8b0)] -> xpath: //button[@type='submit']]
+2025-10-08 01:32:16 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testInvalidPassword
+2025-10-08 01:32:16 [main] INFO  com.orangehrm.tests.LoginTests - === Test 'testInvalidPassword' completed with status: PASS ===
+2025-10-08 01:32:22 [main] INFO  com.orangehrm.tests.LoginTests - === Starting new test session ===
+2025-10-08 01:32:22 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testEmptyCredentials
+2025-10-08 01:32:22 [main] INFO  com.orangehrm.tests.LoginTests - Running: testEmptyCredentials
+2025-10-08 01:32:22 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: 
+2025-10-08 01:32:23 [main] INFO  com.orangehrm.pages.BasePage - Typing text: 
+2025-10-08 01:32:23 [main] INFO  com.orangehrm.pages.BasePage - Typing text: 
+2025-10-08 01:32:23 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (52a78bcd-7d79-49d6-9ff3-014ff78bd347)] -> xpath: //button[@type='submit']]
+2025-10-08 01:32:23 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testEmptyCredentials
+2025-10-08 01:32:23 [main] INFO  com.orangehrm.tests.LoginTests - === Test 'testEmptyCredentials' completed with status: PASS ===
+2025-10-08 01:32:29 [main] INFO  com.orangehrm.tests.LoginTests - === Starting new test session ===
+2025-10-08 01:32:29 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testLogoutFunctionality
+2025-10-08 01:32:29 [main] INFO  com.orangehrm.tests.LoginTests - Running: testLogoutFunctionality
+2025-10-08 01:32:29 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:32:30 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:32:30 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:32:43 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:32:43 [main] INFO  com.orangehrm.pages.DashboardPage - Dashboard header visible: true
+2025-10-08 01:32:43 [main] INFO  com.orangehrm.pages.LoginPage - Logging out...
+2025-10-08 01:32:43 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (c19d1596-a83e-4b9a-803b-5c7293ac6be9)] -> xpath: //i[contains(@class,'oxd-userdropdown-icon')]]
+2025-10-08 01:32:54 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //a[normalize-space()='Logout']'
+2025-10-08 01:32:54 [main] INFO  com.orangehrm.pages.LoginPage - Successfully logged out.
+2025-10-08 01:32:54 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testLogoutFunctionality
+2025-10-08 01:32:54 [main] INFO  com.orangehrm.tests.LoginTests - === Test 'testLogoutFunctionality' completed with status: PASS ===
+2025-10-08 01:32:55 [main] INFO  com.orangehrm.listeners.TestListener - TEST EXECUTION FINISHED. Extent report generated.
+2025-10-08 01:34:24 [main] INFO  com.orangehrm.data.TestDataProvider - Providing static data for dashboard menus
+2025-10-08 01:34:31 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:34:31 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:34:31 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.pages.DashboardPage - Dashboard header visible: true
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.tests.DashboardTests - Successfully logged in and Dashboard loaded.
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyDashboardElementsAfterLogin
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.tests.DashboardTests - Running verifyDashboardElementsAfterLogin with menus: [Admin, PIM, Leave, Time]
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.pages.DashboardPage - Dashboard header visible: true
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.pages.DashboardPage - Menu 'Admin' visible: true
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.pages.DashboardPage - Menu 'PIM' visible: true
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.pages.DashboardPage - Menu 'Leave' visible: true
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.pages.DashboardPage - Menu 'Time' visible: true
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyDashboardElementsAfterLogin
+2025-10-08 01:34:44 [main] INFO  com.orangehrm.tests.DashboardTests - === Test 'verifyDashboardElementsAfterLogin' finished with status: PASS ===
+2025-10-08 01:34:45 [main] INFO  com.orangehrm.data.TestDataProvider - Providing static data for dashboard quick launch tiles
+2025-10-08 01:34:51 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:34:51 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:34:51 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.pages.DashboardPage - Dashboard header visible: true
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.tests.DashboardTests - Successfully logged in and Dashboard loaded.
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyQuickLaunchWidgets
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.tests.DashboardTests - Running verifyQuickLaunchWidgets with tiles: [Assign Leave, Leave List, Timesheets, Apply Leave]
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.pages.DashboardPage - Quick Launch widget visible: true
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.pages.DashboardPage - Quick Launch tile 'Assign Leave' is visible.
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.pages.DashboardPage - Quick Launch tile 'Leave List' is visible.
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.pages.DashboardPage - Quick Launch tile 'Timesheets' is visible.
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.pages.DashboardPage - Quick Launch tile 'Apply Leave' is visible.
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyQuickLaunchWidgets
+2025-10-08 01:35:05 [main] INFO  com.orangehrm.tests.DashboardTests - === Test 'verifyQuickLaunchWidgets' finished with status: PASS ===
+2025-10-08 01:35:12 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:35:12 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:35:12 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:35:26 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:35:26 [main] INFO  com.orangehrm.pages.DashboardPage - Dashboard header visible: true
+2025-10-08 01:35:26 [main] INFO  com.orangehrm.tests.DashboardTests - Successfully logged in and Dashboard loaded.
+2025-10-08 01:35:26 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyEmployeeDistributionChart
+2025-10-08 01:35:26 [main] INFO  com.orangehrm.tests.DashboardTests - Running verifyEmployeeDistributionChart
+2025-10-08 01:35:26 [main] INFO  com.orangehrm.pages.DashboardPage - Employee Distribution title visible: true
+2025-10-08 01:35:26 [main] INFO  com.orangehrm.pages.DashboardPage - Employee Distribution chart visible: true
+2025-10-08 01:35:26 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyEmployeeDistributionChart
+2025-10-08 01:35:26 [main] INFO  com.orangehrm.tests.DashboardTests - === Test 'verifyEmployeeDistributionChart' finished with status: PASS ===
+2025-10-08 01:35:33 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:35:33 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:35:33 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:35:45 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:35:45 [main] INFO  com.orangehrm.pages.DashboardPage - Dashboard header visible: true
+2025-10-08 01:35:45 [main] INFO  com.orangehrm.tests.DashboardTests - Successfully logged in and Dashboard loaded.
+2025-10-08 01:35:45 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyPendingLeaveRequests
+2025-10-08 01:35:45 [main] INFO  com.orangehrm.tests.DashboardTests - Running verifyPendingLeaveRequests
+2025-10-08 01:36:05 [main] WARN  com.orangehrm.pages.DashboardPage - Pending Leave widget not present: Expected condition failed: waiting for presence of element located by: By.xpath: //p[normalize-space()='Pending Leave Requests'] (tried for 15 second(s) with 500 milliseconds interval)
+2025-10-08 01:36:05 [main] WARN  com.orangehrm.listeners.TestListener - SKIPPED TEST: verifyPendingLeaveRequests
+2025-10-08 01:36:05 [main] INFO  com.orangehrm.tests.DashboardTests - === Test 'verifyPendingLeaveRequests' finished with status: SKIP ===
+2025-10-08 01:36:06 [main] INFO  com.orangehrm.data.TestDataProvider - Providing static data for dashboard baseline widgets
+2025-10-08 01:36:12 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:36:12 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:36:12 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.pages.DashboardPage - Dashboard header visible: true
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.tests.DashboardTests - Successfully logged in and Dashboard loaded.
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyDashboardCustomization
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.tests.DashboardTests - Running verifyDashboardCustomization with widgets: [Quick Launch, Time at Work, My Actions, Employee Distribution by Sub Unit]
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.pages.DashboardPage - Widget 'Quick Launch' visible: true
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.pages.DashboardPage - Widget 'Time at Work' visible: true
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.pages.DashboardPage - Widget 'My Actions' visible: true
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.pages.DashboardPage - Widget 'Employee Distribution by Sub Unit' visible: true
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyDashboardCustomization
+2025-10-08 01:36:24 [main] INFO  com.orangehrm.tests.DashboardTests - === Test 'verifyDashboardCustomization' finished with status: PASS ===
+2025-10-08 01:36:25 [main] INFO  com.orangehrm.listeners.TestListener - TEST EXECUTION FINISHED. Extent report generated.
+2025-10-08 01:37:13 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:37:14 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:37:14 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:37:25 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:37:25 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyApply_Smart
+2025-10-08 01:37:37 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (0e41c508-fb2a-4b6d-8807-07ede01c291c)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:38:19 [main] INFO  com.orangehrm.pages.LeavePage - Apply page shows 'No Leave Types with Leave Balance' — marking as PASS per requirement.
+2025-10-08 01:38:19 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyApply_Smart
+2025-10-08 01:38:19 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveApply
+2025-10-08 01:38:20 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveApply' not found in file: classpath:testdata.xlsx
+2025-10-08 01:38:20 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyAssign_Basic
+2025-10-08 01:38:32 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (0e41c508-fb2a-4b6d-8807-07ede01c291c)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:39:43 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: PIM
+2025-10-08 01:39:43 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: PIM (1 rows, 6 cols trimmed)
+2025-10-08 01:39:50 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:39:50 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:39:50 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:40:02 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:40:02 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:40:04 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (23edd5a5-c5cc-48e5-b752-7fed21265471)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:40:04 [main] INFO  com.orangehrm.tests.PIMTests - 🔐 Logged in and opened PIM.
+2025-10-08 01:40:04 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testAddEmployee
+2025-10-08 01:40:04 [main] INFO  com.orangehrm.tests.PIMTests - Running testAddEmployee for employee: Musthafa Sheik
+2025-10-08 01:40:04 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:40:05 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (23edd5a5-c5cc-48e5-b752-7fed21265471)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:40:05 [main] INFO  com.orangehrm.pages.PIMPage - Clicking Add Employee
+2025-10-08 01:40:16 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Add']'
+2025-10-08 01:40:16 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Musthafa
+2025-10-08 01:40:16 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Sheik
+2025-10-08 01:40:16 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Sheik
+2025-10-08 01:40:16 [main] INFO  com.orangehrm.pages.BasePage - Typing text: 112757779
+2025-10-08 01:40:16 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (23edd5a5-c5cc-48e5-b752-7fed21265471)] -> xpath: //span[contains(@class,'oxd-switch-input')]]
+2025-10-08 01:40:17 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei
+2025-10-08 01:40:17 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei1@
+2025-10-08 01:40:17 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei1@
+2025-10-08 01:40:17 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (23edd5a5-c5cc-48e5-b752-7fed21265471)] -> xpath: //button[normalize-space()='Save']]
+2025-10-08 01:40:19 [main] INFO  com.orangehrm.pages.PIMPage - Employee saved (toast visible)
+2025-10-08 01:40:19 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testAddEmployee
+2025-10-08 01:40:19 [main] INFO  com.orangehrm.tests.PIMTests - === Test 'testAddEmployee' completed with status: PASS ===
+2025-10-08 01:40:20 [main] INFO  com.orangehrm.tests.PIMTests - Browser closed after test.
+2025-10-08 01:40:26 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:40:26 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:40:26 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:40:39 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: Admin
+2025-10-08 01:40:40 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: Admin (1 rows, 12 cols trimmed)
+2025-10-08 01:40:46 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:40:47 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:40:47 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:40:59 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:41:00 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (ab556a5d-dded-4e2a-a4dd-1af3bda2c7d9)] -> xpath: //span[normalize-space()='Admin']]
+2025-10-08 01:41:00 [main] INFO  com.orangehrm.pages.AdminPage - Opened Admin module (System Users page visible).
+2025-10-08 01:41:00 [main] INFO  com.orangehrm.tests.AdminTests - Logged in successfully and opened Admin module.
+2025-10-08 01:41:00 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyUserManagementFunctionality
+2025-10-08 01:41:00 [main] INFO  com.orangehrm.tests.AdminTests - Running verifyUserManagementFunctionality for username: muysheiu
+2025-10-08 01:41:00 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (ab556a5d-dded-4e2a-a4dd-1af3bda2c7d9)] -> xpath: //span[normalize-space()='User Management']]
+2025-10-08 01:41:00 [main] INFO  com.orangehrm.pages.AdminPage - Navigated to User Management (System Users).
+2025-10-08 01:41:11 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Add']'
+2025-10-08 01:41:11 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Musthafa Sheik Sheik
+2025-10-08 01:41:12 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (ab556a5d-dded-4e2a-a4dd-1af3bda2c7d9)] -> xpath: //div[@role='listbox']//div[@role='option'][contains(.,'Musthafa Sheik Sheik')]]
+2025-10-08 01:41:12 [main] INFO  com.orangehrm.pages.AdminPage - Selected employee suggestion for 'Musthafa Sheik Sheik'
+2025-10-08 01:41:13 [main] INFO  com.orangehrm.pages.BasePage - Typing text: muysheiu1@
+2025-10-08 01:41:13 [main] INFO  com.orangehrm.pages.BasePage - Typing text: muysheiu1@
+2025-10-08 01:41:13 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (ab556a5d-dded-4e2a-a4dd-1af3bda2c7d9)] -> xpath: //button[normalize-space()='Save']]
+2025-10-08 01:41:15 [main] INFO  com.orangehrm.pages.BasePage - Toast displayed with text: Success
+Successfully Saved
+×
+2025-10-08 01:41:30 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:41:31 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:41:31 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:41:45 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:41:45 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyApply_Smart
+2025-10-08 01:41:56 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (a794c827-4001-44e8-b9c6-ffce7c25b88b)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:42:38 [main] INFO  com.orangehrm.pages.LeavePage - Apply page shows 'No Leave Types with Leave Balance' — marking as PASS per requirement.
+2025-10-08 01:42:38 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyApply_Smart
+2025-10-08 01:42:38 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveApply
+2025-10-08 01:42:40 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveApply' not found in file: classpath:testdata.xlsx
+2025-10-08 01:42:40 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyAssign_Basic
+2025-10-08 01:42:51 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (a794c827-4001-44e8-b9c6-ffce7c25b88b)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:44:24 [main] ERROR com.orangehrm.pages.LeavePage - Assign flow error: Expected condition failed: waiting for visibility of element located by By.xpath: //textarea[@placeholder='Type here'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22644, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a794c827-4001-44e8-b9c6-ffce7c25b88b
+2025-10-08 01:44:25 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyAssign_Basic | Screenshot saved at: output/screenshots/verifyAssign_Basic_20251008_014424.png
+java.lang.AssertionError: Assign leave failed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at com.orangehrm.tests.LeaveTests.verifyAssign_Basic(LeaveTests.java:77) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:44:25 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveAssign
+2025-10-08 01:44:25 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveAssign' not found in file: classpath:testdata.xlsx
+2025-10-08 01:44:25 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyMyLeave_FromSheet
+2025-10-08 01:44:25 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'MyLeave' not found in file: classpath:testdata.xlsx
+2025-10-08 01:44:36 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (a794c827-4001-44e8-b9c6-ffce7c25b88b)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:45:47 [main] INFO  com.orangehrm.pages.LeavePage - My Leave rows: 0
+2025-10-08 01:45:47 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyMyLeave_FromSheet
+2025-10-08 01:45:47 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyEntitlements_LeaveTypesList
+2025-10-08 01:45:59 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (a794c827-4001-44e8-b9c6-ffce7c25b88b)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:46:46 [main] INFO  com.orangehrm.pages.LeavePage - Entitlement Leave Types: [CAN - Bereavement, CAN - FMLA, CAN - Matternity, CAN - Personal, CAN - Vacation, US - Bereavement, US - FMLA, US - Matternity, US - Personal, US - Vacation]
+2025-10-08 01:46:47 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveTypes' not found in file: classpath:testdata.xlsx
+2025-10-08 01:46:47 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyEntitlements_LeaveTypesList
+2025-10-08 01:46:47 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyReports_LeaveBalance
+2025-10-08 01:46:47 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveEntitlements' not found in file: classpath:testdata.xlsx
+2025-10-08 01:46:58 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (a794c827-4001-44e8-b9c6-ffce7c25b88b)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:47:59 [main] WARN  com.orangehrm.pages.LeavePage - Leave Balance report failed: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Leave Balance'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22644, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: a794c827-4001-44e8-b9c6-ffce7c25b88b
+2025-10-08 01:47:59 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyReports_LeaveBalance | Screenshot saved at: output/screenshots/verifyReports_LeaveBalance_20251008_014759.png
+java.lang.AssertionError: Report did not render. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at com.orangehrm.tests.LeaveTests.verifyReports_LeaveBalance(LeaveTests.java:149) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:48:00 [main] INFO  com.orangehrm.listeners.TestListener - TEST EXECUTION FINISHED. Extent report generated.
+2025-10-08 01:49:29 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: PIM
+2025-10-08 01:49:30 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: PIM (1 rows, 6 cols trimmed)
+2025-10-08 01:49:37 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:49:37 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:49:37 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:49:49 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:49:49 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:49:50 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (a48b2eff-a76f-4df2-aa26-82bd93819e27)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:49:50 [main] INFO  com.orangehrm.tests.PIMTests - 🔐 Logged in and opened PIM.
+2025-10-08 01:49:50 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testAddEmployee
+2025-10-08 01:49:50 [main] INFO  com.orangehrm.tests.PIMTests - Running testAddEmployee for employee: Musthafa Sheik
+2025-10-08 01:49:50 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:49:52 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (a48b2eff-a76f-4df2-aa26-82bd93819e27)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:49:52 [main] INFO  com.orangehrm.pages.PIMPage - Clicking Add Employee
+2025-10-08 01:50:02 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Add']'
+2025-10-08 01:50:02 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Musthafa
+2025-10-08 01:50:03 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Sheik
+2025-10-08 01:50:03 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Sheik
+2025-10-08 01:50:03 [main] INFO  com.orangehrm.pages.BasePage - Typing text: 112757779
+2025-10-08 01:50:03 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (a48b2eff-a76f-4df2-aa26-82bd93819e27)] -> xpath: //span[contains(@class,'oxd-switch-input')]]
+2025-10-08 01:50:03 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei
+2025-10-08 01:50:03 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei1@
+2025-10-08 01:50:03 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei1@
+2025-10-08 01:50:03 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (a48b2eff-a76f-4df2-aa26-82bd93819e27)] -> xpath: //button[normalize-space()='Save']]
+2025-10-08 01:50:06 [main] INFO  com.orangehrm.pages.PIMPage - Employee saved (toast visible)
+2025-10-08 01:50:06 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testAddEmployee
+2025-10-08 01:50:06 [main] INFO  com.orangehrm.tests.PIMTests - === Test 'testAddEmployee' completed with status: PASS ===
+2025-10-08 01:50:07 [main] INFO  com.orangehrm.tests.PIMTests - Browser closed after test.
+2025-10-08 01:50:12 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:50:13 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:50:13 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:50:25 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:50:25 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:50:26 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (69bcd8d1-2ccd-48d9-bfd8-fe122231a8cd)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:50:26 [main] INFO  com.orangehrm.tests.PIMTests - 🔐 Logged in and opened PIM.
+2025-10-08 01:50:26 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testEmployeeListView
+2025-10-08 01:50:26 [main] INFO  com.orangehrm.tests.PIMTests - Running testEmployeeListView
+2025-10-08 01:50:26 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:50:27 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (69bcd8d1-2ccd-48d9-bfd8-fe122231a8cd)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:50:28 [main] INFO  com.orangehrm.pages.PIMPage - Navigating to Employee List
+2025-10-08 01:50:31 [main] INFO  com.orangehrm.tests.PIMTests - Buttons available: [Upgrade, Reset, Search, Add, 1, 2, 3]
+2025-10-08 01:50:31 [main] INFO  com.orangehrm.tests.PIMTests - Table Headers: [Id, First (& Middle) Name, Last Name, Job Title, Employment Status, Sub Unit, Supervisor, Actions]
+2025-10-08 01:50:31 [main] INFO  com.orangehrm.tests.PIMTests - Total employee records found: 50
+2025-10-08 01:50:31 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testEmployeeListView
+2025-10-08 01:50:31 [main] INFO  com.orangehrm.tests.PIMTests - === Test 'testEmployeeListView' completed with status: PASS ===
+2025-10-08 01:50:32 [main] INFO  com.orangehrm.tests.PIMTests - Browser closed after test.
+2025-10-08 01:50:32 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: PIM
+2025-10-08 01:50:32 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: PIM (1 rows, 6 cols trimmed)
+2025-10-08 01:50:38 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:50:38 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:50:38 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:50:50 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:50:50 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:50:51 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (45106c80-dd78-4211-bfad-0c88d95e6f2a)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:50:51 [main] INFO  com.orangehrm.tests.PIMTests - 🔐 Logged in and opened PIM.
+2025-10-08 01:50:51 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testEmployeeSearchFunctionality
+2025-10-08 01:50:51 [main] INFO  com.orangehrm.tests.PIMTests - Running testEmployeeSearchFunctionality for employee ID: 112757779
+2025-10-08 01:50:51 [main] INFO  com.orangehrm.pages.PIMPage - Navigating to Employee List
+2025-10-08 01:50:53 [main] INFO  com.orangehrm.pages.PIMPage - Navigating to Employee List
+2025-10-08 01:50:54 [main] INFO  com.orangehrm.pages.BasePage - Typing text: 112757779
+2025-10-08 01:50:55 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (45106c80-dd78-4211-bfad-0c88d95e6f2a)] -> xpath: //button[normalize-space()='Search']]
+2025-10-08 01:50:55 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: testEmployeeSearchFunctionality | Screenshot saved at: output/screenshots/testEmployeeSearchFunctionality_20251008_015055.png
+org.openqa.selenium.StaleElementReferenceException: The element with the reference 95bc8ce5-d080-4ec2-af8d-13de1bc48227 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [45106c80-dd78-4211-bfad-0c88d95e6f2a, getElementText {id=95bc8ce5-d080-4ec2-af8d-13de1bc48227}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8404, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (45106c80-dd78-4211-bfad-0c88d95e6f2a)] -> css selector: div.oxd-table-body div.oxd-table-card]
+Session ID: 45106c80-dd78-4211-bfad-0c88d95e6f2a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191) ~[selenium-remote-driver-4.25.0.jar:?]
+	at com.orangehrm.pages.PIMPage.isEmployeeFoundInTable(PIMPage.java:148) ~[classes/:?]
+	at com.orangehrm.tests.PIMTests.testEmployeeSearchFunctionality(PIMTests.java:109) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 01:50:55 [main] INFO  com.orangehrm.tests.PIMTests - === Test 'testEmployeeSearchFunctionality' completed with status: FAIL ===
+2025-10-08 01:50:56 [main] INFO  com.orangehrm.tests.PIMTests - Browser closed after test.
+2025-10-08 01:50:56 [main] INFO  com.orangehrm.listeners.TestListener - TEST EXECUTION FINISHED. Extent report generated.
+2025-10-08 01:51:46 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: PIM
+2025-10-08 01:51:46 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: PIM (1 rows, 6 cols trimmed)
+2025-10-08 01:51:52 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:51:53 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:51:53 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:52:04 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:52:04 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:52:06 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (3757b98a-b94f-4c52-af04-e40d5d7aca1c)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:52:06 [main] INFO  com.orangehrm.tests.PIMTests - 🔐 Logged in and opened PIM.
+2025-10-08 01:52:06 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testAddEmployee
+2025-10-08 01:52:06 [main] INFO  com.orangehrm.tests.PIMTests - Running testAddEmployee for employee: Musthafa Sheik
+2025-10-08 01:52:06 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:52:07 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (3757b98a-b94f-4c52-af04-e40d5d7aca1c)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:52:07 [main] INFO  com.orangehrm.pages.PIMPage - Clicking Add Employee
+2025-10-08 01:52:18 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Add']'
+2025-10-08 01:52:18 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Musthafa
+2025-10-08 01:52:18 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Sheik
+2025-10-08 01:52:19 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Sheik
+2025-10-08 01:52:19 [main] INFO  com.orangehrm.pages.BasePage - Typing text: 112757779
+2025-10-08 01:52:19 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (3757b98a-b94f-4c52-af04-e40d5d7aca1c)] -> xpath: //span[contains(@class,'oxd-switch-input')]]
+2025-10-08 01:52:19 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei
+2025-10-08 01:52:19 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei1@
+2025-10-08 01:52:19 [main] INFO  com.orangehrm.pages.BasePage - Typing text: musyshei1@
+2025-10-08 01:52:19 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (3757b98a-b94f-4c52-af04-e40d5d7aca1c)] -> xpath: //button[normalize-space()='Save']]
+2025-10-08 01:52:22 [main] INFO  com.orangehrm.pages.PIMPage - Employee saved (toast visible)
+2025-10-08 01:52:22 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testAddEmployee
+2025-10-08 01:52:22 [main] INFO  com.orangehrm.tests.PIMTests - === Test 'testAddEmployee' completed with status: PASS ===
+2025-10-08 01:52:23 [main] INFO  com.orangehrm.tests.PIMTests - Browser closed after test.
+2025-10-08 01:52:28 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:52:29 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:52:29 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:52:42 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:52:42 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:52:44 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (efe1064c-6605-4cd3-be85-f3525c07c676)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:52:44 [main] INFO  com.orangehrm.tests.PIMTests - 🔐 Logged in and opened PIM.
+2025-10-08 01:52:44 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testEmployeeListView
+2025-10-08 01:52:44 [main] INFO  com.orangehrm.tests.PIMTests - Running testEmployeeListView
+2025-10-08 01:52:44 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:52:45 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (efe1064c-6605-4cd3-be85-f3525c07c676)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:52:45 [main] INFO  com.orangehrm.pages.PIMPage - Navigating to Employee List
+2025-10-08 01:52:48 [main] INFO  com.orangehrm.tests.PIMTests - Buttons available: [Upgrade, Reset, Search, Add, 1, 2, 3]
+2025-10-08 01:52:48 [main] INFO  com.orangehrm.tests.PIMTests - Table Headers: [Id, First (& Middle) Name, Last Name, Job Title, Employment Status, Sub Unit, Supervisor, Actions]
+2025-10-08 01:52:48 [main] INFO  com.orangehrm.tests.PIMTests - Total employee records found: 50
+2025-10-08 01:52:48 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testEmployeeListView
+2025-10-08 01:52:48 [main] INFO  com.orangehrm.tests.PIMTests - === Test 'testEmployeeListView' completed with status: PASS ===
+2025-10-08 01:52:49 [main] INFO  com.orangehrm.tests.PIMTests - Browser closed after test.
+2025-10-08 01:52:49 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: PIM
+2025-10-08 01:52:49 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: PIM (1 rows, 6 cols trimmed)
+2025-10-08 01:52:55 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:52:55 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:52:55 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:53:07 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:53:07 [main] INFO  com.orangehrm.pages.PIMPage - Opening PIM module
+2025-10-08 01:53:08 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (bd958ead-9a10-4b59-b8f5-89601a5f2cde)] -> xpath: //span[normalize-space()='PIM']]
+2025-10-08 01:53:08 [main] INFO  com.orangehrm.tests.PIMTests - 🔐 Logged in and opened PIM.
+2025-10-08 01:53:08 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: testEmployeeSearchFunctionality
+2025-10-08 01:53:08 [main] INFO  com.orangehrm.tests.PIMTests - Running testEmployeeSearchFunctionality for employee ID: 112757779
+2025-10-08 01:53:08 [main] INFO  com.orangehrm.pages.PIMPage - Navigating to Employee List
+2025-10-08 01:53:09 [main] INFO  com.orangehrm.pages.PIMPage - Navigating to Employee List
+2025-10-08 01:53:11 [main] INFO  com.orangehrm.pages.BasePage - Typing text: 112757779
+2025-10-08 01:53:11 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (bd958ead-9a10-4b59-b8f5-89601a5f2cde)] -> xpath: //button[normalize-space()='Search']]
+2025-10-08 01:53:11 [main] INFO  com.orangehrm.pages.PIMPage - Found employee '112757779' in table.
+2025-10-08 01:53:11 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: testEmployeeSearchFunctionality
+2025-10-08 01:53:11 [main] INFO  com.orangehrm.tests.PIMTests - === Test 'testEmployeeSearchFunctionality' completed with status: PASS ===
+2025-10-08 01:53:12 [main] INFO  com.orangehrm.tests.PIMTests - Browser closed after test.
+2025-10-08 01:53:12 [main] INFO  com.orangehrm.listeners.TestListener - TEST EXECUTION FINISHED. Extent report generated.
+2025-10-08 01:53:47 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: Admin
+2025-10-08 01:53:48 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: Admin (1 rows, 12 cols trimmed)
+2025-10-08 01:53:55 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:53:55 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:53:55 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:54:07 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:54:08 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (2540ccd5-3785-459e-ad11-fe8e9ec191a7)] -> xpath: //span[normalize-space()='Admin']]
+2025-10-08 01:54:08 [main] INFO  com.orangehrm.pages.AdminPage - Opened Admin module (System Users page visible).
+2025-10-08 01:54:08 [main] INFO  com.orangehrm.tests.AdminTests - Logged in successfully and opened Admin module.
+2025-10-08 01:54:08 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyUserManagementFunctionality
+2025-10-08 01:54:08 [main] INFO  com.orangehrm.tests.AdminTests - Running verifyUserManagementFunctionality for username: muysheiu
+2025-10-08 01:54:08 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (2540ccd5-3785-459e-ad11-fe8e9ec191a7)] -> xpath: //span[normalize-space()='User Management']]
+2025-10-08 01:54:08 [main] INFO  com.orangehrm.pages.AdminPage - Navigated to User Management (System Users).
+2025-10-08 01:54:19 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Add']'
+2025-10-08 01:54:19 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Musthafa Sheik Sheik
+2025-10-08 01:54:21 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (2540ccd5-3785-459e-ad11-fe8e9ec191a7)] -> xpath: //div[@role='listbox']//div[@role='option'][contains(.,'Musthafa Sheik Sheik')]]
+2025-10-08 01:54:21 [main] INFO  com.orangehrm.pages.AdminPage - Selected employee suggestion for 'Musthafa Sheik Sheik'
+2025-10-08 01:54:21 [main] INFO  com.orangehrm.pages.BasePage - Typing text: muysheiu1@
+2025-10-08 01:54:21 [main] INFO  com.orangehrm.pages.BasePage - Typing text: muysheiu1@
+2025-10-08 01:54:21 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (2540ccd5-3785-459e-ad11-fe8e9ec191a7)] -> xpath: //button[normalize-space()='Save']]
+2025-10-08 01:54:23 [main] INFO  com.orangehrm.pages.BasePage - Toast displayed with text: Success
+Successfully Saved
+×
+2025-10-08 01:54:36 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (2540ccd5-3785-459e-ad11-fe8e9ec191a7)] -> xpath: //button[@type='submit' and normalize-space()='Search']]
+2025-10-08 01:54:47 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyUserManagementFunctionality
+2025-10-08 01:54:47 [main] INFO  com.orangehrm.tests.AdminTests - === Test 'verifyUserManagementFunctionality' completed with status: PASS ===
+2025-10-08 01:54:47 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: Admin
+2025-10-08 01:54:47 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: Admin (1 rows, 12 cols trimmed)
+2025-10-08 01:54:53 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:54:53 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:54:53 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:55:08 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:55:09 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (c0493598-631b-4cf8-8885-e95199f84019)] -> xpath: //span[normalize-space()='Admin']]
+2025-10-08 01:55:09 [main] INFO  com.orangehrm.pages.AdminPage - Opened Admin module (System Users page visible).
+2025-10-08 01:55:09 [main] INFO  com.orangehrm.tests.AdminTests - Logged in successfully and opened Admin module.
+2025-10-08 01:55:09 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyJobTitlesManagement
+2025-10-08 01:55:09 [main] INFO  com.orangehrm.tests.AdminTests - Running verifyJobTitlesManagement for job title: CMT-Quality Engineer
+2025-10-08 01:55:09 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (c0493598-631b-4cf8-8885-e95199f84019)] -> xpath: //span[normalize-space()='Job']]
+2025-10-08 01:55:10 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (c0493598-631b-4cf8-8885-e95199f84019)] -> xpath: //a[normalize-space()='Job Titles']]
+2025-10-08 01:55:21 [main] INFO  com.orangehrm.pages.AdminPage - Navigated Job → Job Titles.
+2025-10-08 01:55:31 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Add']'
+2025-10-08 01:55:31 [main] INFO  com.orangehrm.pages.BasePage - Typing text: CMT-Quality Engineer
+2025-10-08 01:55:31 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Develops and maintains automated test scripts to ensure software quality...
+2025-10-08 01:55:32 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (c0493598-631b-4cf8-8885-e95199f84019)] -> xpath: //button[normalize-space()='Save']]
+2025-10-08 01:55:33 [main] INFO  com.orangehrm.pages.BasePage - Toast displayed with text: Success
+Successfully Saved
+×
+2025-10-08 01:55:46 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (c0493598-631b-4cf8-8885-e95199f84019)] -> xpath: //span[normalize-space()='Job']]
+2025-10-08 01:55:47 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (c0493598-631b-4cf8-8885-e95199f84019)] -> xpath: //a[normalize-space()='Job Titles']]
+2025-10-08 01:55:57 [main] INFO  com.orangehrm.pages.AdminPage - Navigated Job → Job Titles.
+2025-10-08 01:55:57 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyJobTitlesManagement
+2025-10-08 01:55:57 [main] INFO  com.orangehrm.tests.AdminTests - === Test 'verifyJobTitlesManagement' completed with status: PASS ===
+2025-10-08 01:55:58 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: Admin
+2025-10-08 01:55:58 [main] INFO  com.orangehrm.utils.ExcelReader - Successfully read test data from sheet: Admin (1 rows, 12 cols trimmed)
+2025-10-08 01:56:04 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:56:04 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:56:04 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:58:32 [main] INFO  com.orangehrm.pages.LoginPage - Attempting login with Username: Admin
+2025-10-08 01:58:33 [main] INFO  com.orangehrm.pages.BasePage - Typing text: Admin
+2025-10-08 01:58:33 [main] INFO  com.orangehrm.pages.BasePage - Typing text: admin123
+2025-10-08 01:58:45 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: Proxy element for: DefaultElementLocator 'By.xpath: //button[@type='submit']'
+2025-10-08 01:58:45 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyApply_Smart
+2025-10-08 01:58:56 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (2119c9e3-e705-4a26-9f8b-9c4f06f85ee8)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 01:59:39 [main] INFO  com.orangehrm.pages.LeavePage - Apply page shows 'No Leave Types with Leave Balance' — marking as PASS per requirement.
+2025-10-08 01:59:39 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyApply_Smart
+2025-10-08 01:59:39 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveApply
+2025-10-08 01:59:40 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveApply' not found in file: classpath:testdata.xlsx
+2025-10-08 01:59:40 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyAssign_Basic
+2025-10-08 01:59:51 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (2119c9e3-e705-4a26-9f8b-9c4f06f85ee8)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 02:01:25 [main] ERROR com.orangehrm.pages.LeavePage - Assign flow error: Expected condition failed: waiting for visibility of element located by By.xpath: //textarea[@placeholder='Type here'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19752, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2119c9e3-e705-4a26-9f8b-9c4f06f85ee8
+2025-10-08 02:01:25 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyAssign_Basic | Screenshot saved at: output/screenshots/verifyAssign_Basic_20251008_020125.png
+java.lang.AssertionError: Assign leave failed. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at com.orangehrm.tests.LeaveTests.verifyAssign_Basic(LeaveTests.java:80) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 02:01:25 [main] INFO  com.orangehrm.data.TestDataProvider - Fetching test data from Excel sheet: LeaveAssign
+2025-10-08 02:01:25 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveAssign' not found in file: classpath:testdata.xlsx
+2025-10-08 02:01:25 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyMyLeave_FromSheet
+2025-10-08 02:01:26 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'MyLeave' not found in file: classpath:testdata.xlsx
+2025-10-08 02:01:37 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (2119c9e3-e705-4a26-9f8b-9c4f06f85ee8)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 02:02:49 [main] INFO  com.orangehrm.pages.LeavePage - My Leave rows: 0
+2025-10-08 02:02:49 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyMyLeave_FromSheet
+2025-10-08 02:02:49 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyEntitlements_LeaveTypesList
+2025-10-08 02:03:00 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (2119c9e3-e705-4a26-9f8b-9c4f06f85ee8)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 02:03:48 [main] INFO  com.orangehrm.pages.LeavePage - Entitlement Leave Types: [CAN - Bereavement, CAN - FMLA, CAN - Matternity, CAN - Personal, CAN - Vacation, US - Bereavement, US - FMLA, US - Matternity, US - Personal, US - Vacation]
+2025-10-08 02:03:48 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveTypes' not found in file: classpath:testdata.xlsx
+2025-10-08 02:03:48 [main] INFO  com.orangehrm.listeners.TestListener - PASSED TEST: verifyEntitlements_LeaveTypesList
+2025-10-08 02:03:48 [main] INFO  com.orangehrm.listeners.TestListener - STARTING TEST: verifyReports_LeaveBalance
+2025-10-08 02:03:48 [main] ERROR com.orangehrm.utils.ExcelReader - Sheet 'LeaveEntitlements' not found in file: classpath:testdata.xlsx
+2025-10-08 02:04:00 [main] INFO  com.orangehrm.pages.BasePage - Clicked element: [[FirefoxDriver: firefox on windows (2119c9e3-e705-4a26-9f8b-9c4f06f85ee8)] -> xpath: //span[normalize-space()='Leave']]
+2025-10-08 02:05:01 [main] WARN  com.orangehrm.pages.LeavePage - Leave Balance report failed: Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Leave Balance'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 143.0.4, moz:accessibilityChecks: false, moz:buildID: 20251003115653, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19752, moz:profile: C:\Users\SHEIKM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 2119c9e3-e705-4a26-9f8b-9c4f06f85ee8
+2025-10-08 02:05:01 [main] ERROR com.orangehrm.listeners.TestListener - FAILED TEST: verifyReports_LeaveBalance | Screenshot saved at: output/screenshots/verifyReports_LeaveBalance_20251008_020501.png
+java.lang.AssertionError: Report did not render. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.failNotEquals(Assert.java:1590) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.Assert.assertTrue(Assert.java:57) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at com.orangehrm.tests.LeaveTests.verifyReports_LeaveBalance(LeaveTests.java:152) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2025-10-08 02:05:02 [main] INFO  com.orangehrm.listeners.TestListener - TEST EXECUTION FINISHED. Extent report generated.

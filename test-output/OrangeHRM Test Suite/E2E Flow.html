@@ -1,0 +1,1279 @@
+<html>
+<head>
+<title>TestNG:  E2E Flow</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>E2E Flow</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/7/8</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 23 08:53:55 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (309 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangehrm.tests.AdminTests.setup()'><b>setup</b><br>Test class: com.orangehrm.tests.AdminTests</td>
+<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.AdminTests.setup(AdminTests.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1208203046", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1208203046'><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.AdminTests.setup(AdminTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.AdminTests@5dda768f</td></tr>
+<tr>
+<td title='com.orangehrm.tests.DashboardTests.setup()'><b>setup</b><br>Test class: com.orangehrm.tests.DashboardTests</td>
+<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.DashboardTests.setup(DashboardTests.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1515638188", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1515638188'><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.DashboardTests.setup(DashboardTests.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.DashboardTests@fbd1f6</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.setup()'><b>setup</b><br>Test class: com.orangehrm.tests.LoginTests<br>Parameters: chrome</td>
+<td><div><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1912960603", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1912960603'><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LeaveTests.setup()'><b>setup</b><br>Test class: com.orangehrm.tests.LeaveTests</td>
+<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LeaveTests.setup(LeaveTests.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace977552154", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace977552154'><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LeaveTests.setup(LeaveTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.LeaveTests@1ce24091</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.setup()'><b>setup</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.tearDown()'><b>tearDown</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.DashboardTests.tearDown()'><b>tearDown</b><br>Test class: com.orangehrm.tests.DashboardTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.DashboardTests@fbd1f6</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.tearDown()'><b>tearDown</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LeaveTests.tearDown()'><b>tearDown</b><br>Test class: com.orangehrm.tests.LeaveTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.LeaveTests@1ce24091</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.tearDown()'><b>tearDown</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.setup()'><b>setup</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.tearDown()'><b>tearDown</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.tearDown()'><b>tearDown</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.setup()'><b>setup</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.setup()'><b>setup</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.AdminTests.tearDown()'><b>tearDown</b><br>Test class: com.orangehrm.tests.AdminTests</td>
+<td></td>
+<td>0</td>
+<td>com.orangehrm.tests.AdminTests@5dda768f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangehrm.tests.LeaveTests.testApplyLeave()'><b>testApplyLeave</b><br>Test class: com.orangehrm.tests.LeaveTests</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.leaveData(TestDataProvider.java:51)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1846501247", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1846501247'><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.leaveData(TestDataProvider.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.LeaveTests@1ce24091</td></tr>
+<tr>
+<td title='com.orangehrm.tests.AdminTests.testAddEmploymentStatus()'><b>testAddEmploymentStatus</b><br>Test class: com.orangehrm.tests.AdminTests</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.employmentStatus(TestDataProvider.java:45)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace915500720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace915500720'><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.employmentStatus(TestDataProvider.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.AdminTests@5dda768f</td></tr>
+<tr>
+<td title='com.orangehrm.tests.PIMTests.testAddEmployeeAndFillDetails()'><b>testAddEmployeeAndFillDetails</b><br>Test class: com.orangehrm.tests.PIMTests</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.employeeData(TestDataProvider.java:21)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1560940633", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1560940633'><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.employeeData(TestDataProvider.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.PIMTests@55fe41ea</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.testLoginWithDataProvider()'><b>testLoginWithDataProvider</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.loginData(TestDataProvider.java:15)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace671046933", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace671046933'><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.loginData(TestDataProvider.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.AdminTests.testAddJobTitle()'><b>testAddJobTitle</b><br>Test class: com.orangehrm.tests.AdminTests</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.jobTitles(TestDataProvider.java:33)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace838473569", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace838473569'><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.jobTitles(TestDataProvider.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.AdminTests@5dda768f</td></tr>
+<tr>
+<td title='com.orangehrm.tests.AdminTests.testAddAdminUsers()'><b>testAddAdminUsers</b><br>Test class: com.orangehrm.tests.AdminTests</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.adminUsers(TestDataProvider.java:27)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1678046232", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1678046232'><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.adminUsers(TestDataProvider.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.AdminTests@5dda768f</td></tr>
+<tr>
+<td title='com.orangehrm.tests.AdminTests.testAddPayGrades()'><b>testAddPayGrades</b><br>Test class: com.orangehrm.tests.AdminTests</td>
+<td><div><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.payGrades(TestDataProvider.java:39)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1304117943", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1304117943'><pre>java.lang.RuntimeException: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to read Excel: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:48)
+	at com.orangehrm.data.TestDataProvider.payGrades(TestDataProvider.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+	... 25 more
+Caused by: java.lang.RuntimeException: Excel file not found: resources/testdata.xlsx
+	at com.orangehrm.utils.ExcelReader.readSheet(ExcelReader.java:17)
+	... 33 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.AdminTests@5dda768f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangehrm.tests.LeaveTests.testViewReports()'><b>testViewReports</b><br>Test class: com.orangehrm.tests.LeaveTests</td>
+<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LeaveTests.setup(LeaveTests.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace424398527", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace424398527'><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LeaveTests.setup(LeaveTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.LeaveTests@1ce24091</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.testLogout()'><b>testLogout</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td><div><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace224100622", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace224100622'><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.AdminTests.verifyEmployeeCannotAccessAdmin()'><b>verifyEmployeeCannotAccessAdmin</b><br>Test class: com.orangehrm.tests.AdminTests</td>
+<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.AdminTests.setup(AdminTests.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1406014249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1406014249'><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.AdminTests.setup(AdminTests.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.AdminTests@5dda768f</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td><div><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1537471098", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1537471098'><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.testInvalidPassword()'><b>testInvalidPassword</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td><div><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1876443073", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1876443073'><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.testEmptyCredentials()'><b>testEmptyCredentials</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td><div><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace455785638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace455785638'><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LoginTests.testInvalidUsername()'><b>testInvalidUsername</b><br>Test class: com.orangehrm.tests.LoginTests</td>
+<td><div><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1947896119", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1947896119'><pre>java.lang.ExceptionInInitializerError
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.RuntimeException: Failed to load config.properties
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	... 34 more
+Caused by: java.io.FileNotFoundException: resources\config.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:12)
+	... 34 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.LoginTests@6150c3ec</td></tr>
+<tr>
+<td title='com.orangehrm.tests.DashboardTests.verifyDashboardVisible()'><b>verifyDashboardVisible</b><br>Test class: com.orangehrm.tests.DashboardTests</td>
+<td><div><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.DashboardTests.setup(DashboardTests.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1526970878", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1526970878'><pre>java.lang.NoClassDefFoundError: Could not initialize class com.orangehrm.utils.ConfigReader
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.DashboardTests.setup(DashboardTests.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.RuntimeException: Failed to load config.properties [in thread &quot;main&quot;]
+	at com.orangehrm.utils.ConfigReader.&lt;clinit&gt;(ConfigReader.java:15)
+	at com.orangehrm.managers.DriverManager.getDriver(DriverManager.java:18)
+	at com.orangehrm.tests.LoginTests.setup(LoginTests.java:25)
+	... 32 more
+</pre></div></td>
+<td>0</td>
+<td>com.orangehrm.tests.DashboardTests@fbd1f6</td></tr>
+</table><p>
+</body>
+</html>
