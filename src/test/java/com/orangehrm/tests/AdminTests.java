@@ -3,17 +3,15 @@ package com.orangehrm.tests;
 import com.orangehrm.pages.AdminPage;
 import com.orangehrm.pages.LoginPage;
 import com.orangehrm.data.TestDataProvider;
-import com.orangehrm.listeners.TestListener;
 import com.orangehrm.managers.DriverManager;
 import com.orangehrm.utils.ConfigReader;
 import com.orangehrm.utils.LoggerUtil;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.ITestResult;
 import org.testng.annotations.*;
 
-@Listeners(TestListener.class)
+
 public class AdminTests {
 
     private static final Logger log = LoggerUtil.getLogger(AdminTests.class);
@@ -22,7 +20,8 @@ public class AdminTests {
     private LoginPage loginPage;
     private AdminPage adminPage;
 
-    @BeforeMethod(alwaysRun = true)
+
+    @BeforeClass(alwaysRun = true)
     @Parameters("browser")
     public void setup(@Optional String browser) {
         if (browser != null && !browser.isBlank()) {
@@ -35,30 +34,23 @@ public class AdminTests {
         loginPage = new LoginPage(driver);
         adminPage = new AdminPage(driver);
 
-        loginPage.login(ConfigReader.getProperty("default.username"),
-                        ConfigReader.getProperty("default.password"));
+        loginPage.login(
+                ConfigReader.getProperty("default.username"),
+                ConfigReader.getProperty("default.password")
+        );
         adminPage.openAdminModule();
-        log.info("Logged in successfully and opened Admin module.");
-    }
-
-    @AfterMethod(alwaysRun = true)
-    public void tearDown(ITestResult result) {
-        String status;
-        switch (result.getStatus()) {
-            case 1:
-                status = "PASS";
-                break;
-            case 2:
-                status = "FAIL";
-                break;
-            default:
-                status = "SKIP";
-        }
-        log.info("=== Test '{}' completed with status: {} ===", result.getName(), status);
-        DriverManager.quitDriver();
+        log.info("Logged in successfully and opened Admin module (once for AdminTests class).");
     }
 
     
+    @AfterClass(alwaysRun = true)
+    public void tearDown() {
+        DriverManager.quitDriver();
+        log.info("Browser closed after AdminTests class.");
+    }
+
+   
+
     @Test(priority = 1, dataProvider = "adminData", dataProviderClass = TestDataProvider.class)
     public void verifyUserManagementFunctionality(
             String empName, String username, String password,
@@ -85,7 +77,6 @@ public class AdminTests {
         );
     }
 
- 
     @Test(priority = 2, dataProvider = "adminData", dataProviderClass = TestDataProvider.class)
     public void verifyJobTitlesManagement(
             String empName, String username, String password,
@@ -104,7 +95,6 @@ public class AdminTests {
                 "Job title not listed after creation"
         );
     }
-
 
     @Test(priority = 3, dataProvider = "adminData", dataProviderClass = TestDataProvider.class)
     public void verifyPayGradesManagement(
@@ -125,7 +115,6 @@ public class AdminTests {
         );
     }
 
-    
     @Test(priority = 4, dataProvider = "adminData", dataProviderClass = TestDataProvider.class)
     public void verifyEmploymentStatusManagement(
             String empName, String username, String password,
@@ -145,7 +134,6 @@ public class AdminTests {
         );
     }
 
-   
     @Test(priority = 5, description = "Verify navigation to Organization Structure page")
     public void verifyOrganizationStructure() {
         log.info("Running verifyOrganizationStructure");

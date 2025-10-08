@@ -17,8 +17,7 @@ public class PIMPage extends BasePage {
     private static final Duration WAIT = Duration.ofSeconds(20);
     private static final Duration SHORT = Duration.ofSeconds(6);
 
-    private final WebDriver driver;
-    private final WebDriverWait wait;
+    
 
     @FindBy(xpath = "//span[normalize-space()='PIM']")
     private WebElement pimMenu;
@@ -70,8 +69,7 @@ public class PIMPage extends BasePage {
 
     public PIMPage(WebDriver driver) {
         super(driver);
-        this.driver = driver;
-        this.wait = new WebDriverWait(driver, WAIT);
+        
         PageFactory.initElements(driver, this);
     }
 

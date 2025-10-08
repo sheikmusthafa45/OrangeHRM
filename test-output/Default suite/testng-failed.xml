@@ -5,11 +5,12 @@
     <classes>
       <class name="com.orangehrm.tests.LeaveTests">
         <methods>
+          <include name="step4_entitlementsList"/>
           <include name="setup"/>
-          <include name="afterEach"/>
-          <include name="verifyAssign_Basic"/>
+          <include name="step1_applyLeave"/>
+          <include name="step5_leaveBalanceReport"/>
+          <include name="step2_assignLeave"/>
           <include name="tearDown"/>
-          <include name="verifyReports_LeaveBalance"/>
         </methods>
       </class> <!-- com.orangehrm.tests.LeaveTests -->
     </classes>

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 08 01:58:26 IST 2025</td>
+<td>Started on:</td><td>Thu Oct 09 02:32:24 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>395 seconds (395856 ms)</td>
+<tr><td>Total time:</td><td>478 seconds (478508 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.orangehrm.tests.LeaveTests.verifyReports_LeaveBalance()'><b>verifyReports_LeaveBalance</b><br>Test class: com.orangehrm.tests.LeaveTests<br>Test method: Verify Leave Balance report renders rows.</td>
-<td><div><pre>java.lang.AssertionError: Report did not render. expected [true] but found [false]
+<td title='com.orangehrm.tests.LeaveTests.step1_applyLeave()'><b>step1_applyLeave</b><br>Test class: com.orangehrm.tests.LeaveTests<br>Test method: Apply Leave: select type, set dates, click Apply (mirrors Assign flow).</td>
+<td><div><pre>java.lang.AssertionError: Apply leave did not show success toast or the info banner. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.orangehrm.tests.LeaveTests.verifyReports_LeaveBalance(LeaveTests.java:152)
+	at com.orangehrm.tests.LeaveTests.step1_applyLeave(LeaveTests.java:78)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -110,12 +110,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace793575862", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace793575862'><pre>java.lang.AssertionError: Report did not render. expected [true] but found [false]
+</pre></div><a href='#' onClick='toggleBox("stack-trace663925782", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace663925782'><pre>java.lang.AssertionError: Apply leave did not show success toast or the info banner. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.orangehrm.tests.LeaveTests.verifyReports_LeaveBalance(LeaveTests.java:152)
+	at com.orangehrm.tests.LeaveTests.step1_applyLeave(LeaveTests.java:78)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -145,15 +145,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>72</td>
-<td>com.orangehrm.tests.LeaveTests@320de594</td></tr>
+<td>95</td>
+<td>com.orangehrm.tests.LeaveTests@45e37a7e</td></tr>
 <tr>
-<td title='com.orangehrm.tests.LeaveTests.verifyAssign_Basic()'><b>verifyAssign_Basic</b><br>Test class: com.orangehrm.tests.LeaveTests<br>Test method: Verify Assign functionality (autocomplete picks suggestion).</td>
+<td title='com.orangehrm.tests.LeaveTests.step2_assignLeave()'><b>step2_assignLeave</b><br>Test class: com.orangehrm.tests.LeaveTests<br>Test method: Assign Leave to an employee (robust autocomplete selection).</td>
 <td><div><pre>java.lang.AssertionError: Assign leave failed. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.orangehrm.tests.LeaveTests.verifyAssign_Basic(LeaveTests.java:80)
+	at com.orangehrm.tests.LeaveTests.step2_assignLeave(LeaveTests.java:102)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -182,12 +182,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace142871704", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace142871704'><pre>java.lang.AssertionError: Assign leave failed. expected [true] but found [false]
+</pre></div><a href='#' onClick='toggleBox("stack-trace752893574", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace752893574'><pre>java.lang.AssertionError: Assign leave failed. expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.orangehrm.tests.LeaveTests.verifyAssign_Basic(LeaveTests.java:80)
+	at com.orangehrm.tests.LeaveTests.step2_assignLeave(LeaveTests.java:102)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -217,8 +217,160 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>105</td>
-<td>com.orangehrm.tests.LeaveTests@320de594</td></tr>
+<td>135</td>
+<td>com.orangehrm.tests.LeaveTests@45e37a7e</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LeaveTests.step4_entitlementsList()'><b>step4_entitlementsList</b><br>Test class: com.orangehrm.tests.LeaveTests<br>Test method: Entitlements → Add Entitlements: verify Leave Type dropdown values (optional compare with sheet LeaveTypes).<br/>
+<a href="#Output-1824225917" onClick='toggleBox("Output-1824225917", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1824225917" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1824225917">
+Entitlements Leave Types (actual): [CAN - Bereavement, CAN - FMLA, CAN - Matternity, CAN - Personal, US - Bereavement, US - FMLA, US - Matternity, US - Personal, US - Vacation]<br/>
+Entitlements Leave Types (expected from sheet): [CAN - Personal, CAN - Bereavement, CAN - FMLA, CAN - Maternity, CAN - Paternity]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Missing leave type in Entitlements dropdown: CAN - Maternity | Actual: [CAN - Bereavement, CAN - FMLA, CAN - Matternity, CAN - Personal, US - Bereavement, US - FMLA, US - Matternity, US - Personal, US - Vacation] expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.orangehrm.tests.LeaveTests.step4_entitlementsList(LeaveTests.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1824225917", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1824225917'><pre>java.lang.AssertionError: Missing leave type in Entitlements dropdown: CAN - Maternity | Actual: [CAN - Bereavement, CAN - FMLA, CAN - Matternity, CAN - Personal, US - Bereavement, US - FMLA, US - Matternity, US - Personal, US - Vacation] expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.orangehrm.tests.LeaveTests.step4_entitlementsList(LeaveTests.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>59</td>
+<td>com.orangehrm.tests.LeaveTests@45e37a7e</td></tr>
+<tr>
+<td title='com.orangehrm.tests.LeaveTests.step5_leaveBalanceReport()'><b>step5_leaveBalanceReport</b><br>Test class: com.orangehrm.tests.LeaveTests<br>Test method: Reports → Leave Balance: verify rows render (>= 0).</td>
+<td><div><pre>java.lang.AssertionError: Leave Balance report did not render. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.orangehrm.tests.LeaveTests.step5_leaveBalanceReport(LeaveTests.java:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1117812847", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1117812847'><pre>java.lang.AssertionError: Leave Balance report did not render. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.orangehrm.tests.LeaveTests.step5_leaveBalanceReport(LeaveTests.java:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>83</td>
+<td>com.orangehrm.tests.LeaveTests@45e37a7e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -229,27 +381,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.orangehrm.tests.LeaveTests.verifyMyLeave_FromSheet()'><b>verifyMyLeave_FromSheet</b><br>Test class: com.orangehrm.tests.LeaveTests<br>Test method: Verify My Leave table loads for the date range and optional Status (sheet: MyLeave).</td>
+<td title='com.orangehrm.tests.LeaveTests.step3_myLeaveTable()'><b>step3_myLeaveTable</b><br>Test class: com.orangehrm.tests.LeaveTests<br>Test method: My Leave page: table renders for given date range (and optional Status if provided in Excel).</td>
 <td></td>
-<td>83</td>
-<td>com.orangehrm.tests.LeaveTests@320de594</td></tr>
-<tr>
-<td title='com.orangehrm.tests.LeaveTests.verifyApply_Smart()'><b>verifyApply_Smart</b><br>Test class: com.orangehrm.tests.LeaveTests<br>Test method: Verify Apply functionality (passes if 'No Leave Types with Leave Balance' banner shown).</td>
-<td></td>
-<td>54</td>
-<td>com.orangehrm.tests.LeaveTests@320de594</td></tr>
-<tr>
-<td title='com.orangehrm.tests.LeaveTests.verifyEntitlements_LeaveTypesList()'><b>verifyEntitlements_LeaveTypesList</b><br>Test class: com.orangehrm.tests.LeaveTests<br>Test method: Verify Entitlements → Add Entitlements shows correct Leave Types (optional sheet: LeaveTypes).<br/>
-<a href="#Output-904351240" onClick='toggleBox("Output-904351240", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-904351240" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-904351240">
-Entitlements Leave Types (actual): [CAN - Bereavement, CAN - FMLA, CAN - Matternity, CAN - Personal, CAN - Vacation, US - Bereavement, US - FMLA, US - Matternity, US - Personal, US - Vacation]<br/>
-</div>
-</td>
-<td></td>
-<td>59</td>
-<td>com.orangehrm.tests.LeaveTests@320de594</td></tr>
+<td>82</td>
+<td>com.orangehrm.tests.LeaveTests@45e37a7e</td></tr>
 </table><p>
 </body>
 </html>

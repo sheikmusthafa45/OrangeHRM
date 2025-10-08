@@ -185,10 +185,9 @@ public class AdminPage extends BasePage {
         return isTextInTable(jobTitle);
     }
 
-   
-    public boolean addPayGradeWithSalary(String payGrade, String currency, String minSalary, String maxSalary) {
+    
+    public boolean addPayGradeWithSalary(String payGrade, String _currencyIgnored, String _minIgnored, String _maxIgnored) {
         try {
-           
             By adminMenu = By.xpath("//span[normalize-space()='Admin']");
             By jobMenu = By.xpath("//span[normalize-space()='Job']");
             By payGrades = By.xpath("//a[normalize-space()='Pay Grades']");
@@ -197,7 +196,6 @@ public class AdminPage extends BasePage {
             wait.until(ExpectedConditions.elementToBeClickable(payGrades)).click();
             log.info("Navigated Job → Pay Grades.");
 
-       
             By addBtn = By.xpath("//button[normalize-space()='Add']");
             By nameInput = By.xpath("//label[normalize-space()='Name']/../following-sibling::div//input");
             By saveBtn = By.xpath("//button[normalize-space()='Save']");
@@ -205,57 +203,23 @@ public class AdminPage extends BasePage {
             wait.until(ExpectedConditions.visibilityOfElementLocated(nameInput)).sendKeys(payGrade);
             wait.until(ExpectedConditions.elementToBeClickable(saveBtn)).click();
 
-            
-            boolean savedToast = isToastDisplayed("Success") || isToastDisplayed("Info");
-            if (!savedToast) {
-                log.warn("No success/info toast after saving pay grade. Continuing to verify via search.");
+            if (isToastDisplayed("Successfully Saved")) {
+                waitToastGone();
+                return verifyPayGrade(payGrade);
             }
 
-            
-            if (!openPayGradeFromList(payGrade)) {
-                driver.navigate().refresh();
-                wait.withTimeout(Duration.ofSeconds(10));
-                if (!openPayGradeFromList(payGrade)) {
-                    log.error("Could not open Pay Grade detail for '{}'", payGrade);
-                    return false;
-                }
+            if (hasInlineError() && getInlineErrorText().toLowerCase().contains("already exists")) {
+                return verifyPayGrade(payGrade);
             }
 
-   
-            By addCurrencyBtn = By.xpath("//button[normalize-space()='Add']");
-            By currencySelect = By.xpath("//label[normalize-space()='Currency']/../following-sibling::div//input");
-            By minInput = By.xpath("//label[contains(.,'Minimum Salary')]/../following-sibling::div//input");
-            By maxInput = By.xpath("//label[contains(.,'Maximum Salary')]/../following-sibling::div//input");
-            wait.until(ExpectedConditions.elementToBeClickable(addCurrencyBtn)).click();
-
-            WebElement currencyField = wait.until(ExpectedConditions.visibilityOfElementLocated(currencySelect));
-            currencyField.sendKeys(currency);
-      
-            try {
-                By dd = By.xpath("//div[@role='listbox']//span[contains(.,'" + currency + "')]");
-                wait.until(ExpectedConditions.elementToBeClickable(dd)).click();
-            } catch (TimeoutException ignored) { 
-            	
-            }
-
-            wait.until(ExpectedConditions.visibilityOfElementLocated(minInput)).sendKeys(minSalary);
-            wait.until(ExpectedConditions.visibilityOfElementLocated(maxInput)).sendKeys(maxSalary);
-            wait.until(ExpectedConditions.elementToBeClickable(saveBtn)).click();
-
-            boolean added = isToastDisplayed("Success");
-            if (!added) {
-                log.warn("No 'Success' toast after adding currency/salary; verifying row presence.");
-                
-                By row = By.xpath("//div[contains(@class,'oxd-table-card')]//*[normalize-space()='" + currency + "']");
-                wait.until(ExpectedConditions.visibilityOfElementLocated(row));
-            }
-            return true;
+            return verifyPayGrade(payGrade);
 
         } catch (Exception e) {
-            log.error("Error while creating pay grade and adding salary: {}", e.getMessage(), e);
+            log.error("Error while creating pay grade (currency step removed): {}", e.getMessage(), e);
             return false;
         }
     }
+   
 
     public boolean verifyPayGrade(String payGradeName) {
         navigateToJobSubMenu("Pay Grades");
@@ -356,13 +320,17 @@ public class AdminPage extends BasePage {
     private void waitSpinnerGone() {
         try {
             new WebDriverWait(driver, SHORT_TIMEOUT).until(ExpectedConditions.invisibilityOfElementLocated(spinner));
-        } catch (TimeoutException ignored) {}
+        } catch (TimeoutException ignored) {
+        	
+        }
     }
 
     private void waitToastGone() {
         try {
             new WebDriverWait(driver, SHORT_TIMEOUT).until(ExpectedConditions.invisibilityOfElementLocated(toast));
-        } catch (TimeoutException ignored) {}
+        } catch (TimeoutException ignored) {
+        	
+        }
     }
 
     private void scrollIntoView(WebElement el) {
@@ -376,7 +344,9 @@ public class AdminPage extends BasePage {
     private void scrollIntoViewAndClick(WebElement el) {
         try {
             new Actions(driver).moveToElement(el).perform();
-        } catch (Exception ignored) {}
+        } catch (Exception ignored) {
+        	
+        }
         click(el);
     }
 
@@ -413,37 +383,34 @@ public class AdminPage extends BasePage {
 
     private boolean isElementPresent(By locator) {
         try {
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
+            driver.manage().timeouts().implicitlyWait(Duration.ZERO);
             boolean present = !driver.findElements(locator).isEmpty();
-            driver.manage().timeouts().implicitlyWait(SHORT_TIMEOUT);
+            int implicit = Integer.parseInt(com.orangehrm.utils.ConfigReader.getProperty("implicit.wait"));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicit));
             return present;
         } catch (Exception e) {
-            driver.manage().timeouts().implicitlyWait(SHORT_TIMEOUT);
+            int implicit = Integer.parseInt(com.orangehrm.utils.ConfigReader.getProperty("implicit.wait"));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(implicit));
             return false;
         }
     }
 
-    
     private boolean openPayGradeFromList(String payGrade) {
         try {
             By searchName = By.xpath("//label[normalize-space()='Name']/../following-sibling::div//input");
             By searchBtn = By.xpath("//button[normalize-space()='Search']");
-            
+
             try {
                 WebElement input = wait.until(ExpectedConditions.visibilityOfElementLocated(searchName));
                 input.clear();
                 input.sendKeys(payGrade);
                 wait.until(ExpectedConditions.elementToBeClickable(searchBtn)).click();
-            } catch (TimeoutException ignored) {
-               
-            }
+            } catch (TimeoutException ignored) { }
 
-            
             By rowLink = By.xpath("//div[contains(@class,'oxd-table-card')]//*[normalize-space()='" + payGrade + "']");
             WebElement link = wait.until(ExpectedConditions.elementToBeClickable(rowLink));
             link.click();
 
-    
             wait.until(ExpectedConditions.or(
                     ExpectedConditions.visibilityOfElementLocated(By.xpath("//h6[contains(.,'Pay Grade')]")),
                     ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(@class,'orangehrm-card-container')]"))

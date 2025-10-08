@@ -1,7 +1,6 @@
 package com.orangehrm.tests;
 
 import com.orangehrm.data.TestDataProvider;
-import com.orangehrm.listeners.TestListener;
 import com.orangehrm.managers.DriverManager;
 import com.orangehrm.pages.LoginPage;
 import com.orangehrm.pages.PIMPage;
@@ -10,12 +9,10 @@ import com.orangehrm.utils.LoggerUtil;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import java.util.List;
 
-@Listeners(TestListener.class)
 public class PIMTests {
 
     private static final Logger log = LoggerUtil.getLogger(PIMTests.class);
@@ -24,7 +21,8 @@ public class PIMTests {
     private LoginPage loginPage;
     private PIMPage pimPage;
 
-    @BeforeMethod(alwaysRun = true)
+    
+    @BeforeClass(alwaysRun = true)
     @Parameters("browser")
     public void setUp(@Optional String browser) {
         if (browser != null && !browser.isBlank()) {
@@ -42,22 +40,14 @@ public class PIMTests {
                 ConfigReader.getProperty("default.password")
         );
         pimPage.openPIM();
-        log.info("🔐 Logged in and opened PIM.");
+        log.info("Logged in and opened PIM (once for PIMTests class).");
     }
 
-    @AfterMethod(alwaysRun = true)
-    public void tearDown(ITestResult result) {
-        String status;
-        if (result.getStatus() == 1) {
-            status = "PASS";
-        } else if (result.getStatus() == 2) {
-            status = "FAIL";
-        } else {
-            status = "SKIP";
-        }
-        log.info("=== Test '{}' completed with status: {} ===", result.getName(), status);
-        DriverManager.quitDriver(); 
-        log.info("Browser closed after test.");
+    
+    @AfterClass(alwaysRun = true)
+    public void tearDown() {
+        DriverManager.quitDriver();
+        log.info("Browser closed after PIMTests class.");
     }
 
     @Test(priority = 1, dataProvider = "pimData", dataProviderClass = TestDataProvider.class,
@@ -104,7 +94,7 @@ public class PIMTests {
                                                 String employeeId) {
 
         log.info("Running testEmployeeSearchFunctionality for employee ID: {}", employeeId);
-        pimPage.goToEmployeeList(); 
+        pimPage.goToEmployeeList();
         pimPage.searchEmployeeById(employeeId);
         Assert.assertTrue(pimPage.isEmployeeFoundInTable(employeeId),
                 "Employee not found in search results: " + employeeId);

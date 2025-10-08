@@ -1,7 +1,7 @@
 package com.orangehrm.tests;
 
 import com.orangehrm.data.TestDataProvider;
-import com.orangehrm.listeners.TestListener;
+
 import com.orangehrm.managers.DriverManager;
 import com.orangehrm.pages.DashboardPage;
 import com.orangehrm.pages.LoginPage;
@@ -13,7 +13,7 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
-@Listeners(TestListener.class)
+
 public class LoginTests {
 
 	private static final Logger log = LoggerUtil.getLogger(LoginTests.class);
