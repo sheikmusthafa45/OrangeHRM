@@ -185,7 +185,6 @@ public class AdminPage extends BasePage {
         return isTextInTable(jobTitle);
     }
 
-    
     public boolean addPayGradeWithSalary(String payGrade, String _currencyIgnored, String _minIgnored, String _maxIgnored) {
         try {
             By adminMenu = By.xpath("//span[normalize-space()='Admin']");
@@ -219,7 +218,6 @@ public class AdminPage extends BasePage {
             return false;
         }
     }
-   
 
     public boolean verifyPayGrade(String payGradeName) {
         navigateToJobSubMenu("Pay Grades");
@@ -321,7 +319,6 @@ public class AdminPage extends BasePage {
         try {
             new WebDriverWait(driver, SHORT_TIMEOUT).until(ExpectedConditions.invisibilityOfElementLocated(spinner));
         } catch (TimeoutException ignored) {
-        	
         }
     }
 
@@ -329,7 +326,6 @@ public class AdminPage extends BasePage {
         try {
             new WebDriverWait(driver, SHORT_TIMEOUT).until(ExpectedConditions.invisibilityOfElementLocated(toast));
         } catch (TimeoutException ignored) {
-        	
         }
     }
 
@@ -345,7 +341,6 @@ public class AdminPage extends BasePage {
         try {
             new Actions(driver).moveToElement(el).perform();
         } catch (Exception ignored) {
-        	
         }
         click(el);
     }

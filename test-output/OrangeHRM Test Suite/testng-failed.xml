@@ -1,63 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Failed suite [OrangeHRM Test Suite]" guice-stage="DEVELOPMENT">
+<suite thread-count="2" parallel="tests" name="Failed suite [OrangeHRM Test Suite]">
   <listeners>
     <listener class-name="com.orangehrm.listeners.TestListener"/>
   </listeners>
-  <test thread-count="2" parallel="tests" name="Chrome Tests(failed)">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.orangehrm.tests.DashboardTests">
-        <methods>
-          <include name="loginFirst"/>
-          <include name="cleanup"/>
-          <include name="verifyPendingLeaveRequests"/>
-        </methods>
-      </class> <!-- com.orangehrm.tests.DashboardTests -->
-      <class name="com.orangehrm.tests.LoginTests">
-        <methods>
-          <include name="testValidLogin"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.orangehrm.tests.LoginTests -->
-      <class name="com.orangehrm.tests.PIMTests">
-        <methods>
-          <include name="afterEach"/>
-          <include name="testEmployeeListView"/>
-          <include name="testEmployeeSearchFunctionality" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.orangehrm.tests.PIMTests -->
-      <class name="com.orangehrm.tests.AdminTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifyUserManagementFunctionality" invocation-numbers="0"/>
-          <include name="verifyPayGradesManagement" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.orangehrm.tests.AdminTests -->
-      <class name="com.orangehrm.tests.LeaveTests">
-        <methods>
-          <include name="setUp"/>
-          <include name="verifyLeaveReportsNavigation"/>
-          <include name="tearDown"/>
-          <include name="verifyLeaveEntitlementsNavigation"/>
-        </methods>
-      </class> <!-- com.orangehrm.tests.LeaveTests -->
-    </classes>
-  </test> <!-- Chrome Tests(failed) -->
   <test thread-count="2" parallel="tests" name="Firefox Tests(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.orangehrm.tests.DashboardTests">
+      <class name="com.orangehrm.tests.PIMTests">
         <methods>
-          <include name="loginFirst"/>
-          <include name="cleanup"/>
-          <include name="verifyPendingLeaveRequests"/>
+          <include name="testEmployeePersonalDetails" invocation-numbers="0"/>
+          <include name="testEmployeeJobDetails" invocation-numbers="0"/>
+          <include name="testEmployeeListView" invocation-numbers="0"/>
+          <include name="testEmployeeSearchFunctionality" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.orangehrm.tests.DashboardTests -->
+      </class> <!-- com.orangehrm.tests.PIMTests -->
       <class name="com.orangehrm.tests.LoginTests">
         <methods>
           <include name="testValidLogin"/>
@@ -65,31 +24,86 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.orangehrm.tests.LoginTests -->
+      <class name="com.orangehrm.tests.DashboardTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyDashboardCustomization" invocation-numbers="0"/>
+          <include name="verifyEmployeeDistributionChart"/>
+          <include name="verifyPendingLeaveRequests"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.DashboardTests -->
+      <class name="com.orangehrm.tests.LeaveTests">
+        <methods>
+          <include name="testAssignLeave"/>
+          <include name="setUp"/>
+          <include name="testMyLeave"/>
+          <include name="testApplyLeave"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.LeaveTests -->
+      <class name="com.orangehrm.tests.AdminTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyJobTitlesManagement"/>
+          <include name="setup"/>
+          <include name="verifyOrganizationStructure"/>
+          <include name="verifyPayGradesManagement"/>
+          <include name="verifyUserManagementFunctionality"/>
+          <include name="verifyEmploymentStatusManagement"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.AdminTests -->
+    </classes>
+  </test> <!-- Firefox Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="Chrome Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
       <class name="com.orangehrm.tests.PIMTests">
         <methods>
-          <include name="afterEach"/>
-          <include name="testEmployeeListView"/>
-          <include name="testAddEmployee" invocation-numbers="0"/>
+          <include name="testEmployeePersonalDetails" invocation-numbers="0"/>
+          <include name="testEmployeeJobDetails" invocation-numbers="0"/>
+          <include name="testEmployeeListView" invocation-numbers="0"/>
           <include name="testEmployeeSearchFunctionality" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.orangehrm.tests.PIMTests -->
+      <class name="com.orangehrm.tests.LoginTests">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.LoginTests -->
+      <class name="com.orangehrm.tests.DashboardTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyEmployeeDistributionChart"/>
+          <include name="verifyDashboardCustomization" invocation-numbers="0"/>
+          <include name="verifyPendingLeaveRequests"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.DashboardTests -->
+      <class name="com.orangehrm.tests.LeaveTests">
+        <methods>
+          <include name="testAssignLeave"/>
+          <include name="setUp"/>
+          <include name="testMyLeave"/>
+          <include name="testApplyLeave"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.orangehrm.tests.LeaveTests -->
       <class name="com.orangehrm.tests.AdminTests">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifyPayGradesManagement" invocation-numbers="0"/>
+          <include name="verifyJobTitlesManagement"/>
+          <include name="verifyOrganizationStructure"/>
+          <include name="verifyUserManagementFunctionality"/>
+          <include name="verifyPayGradesManagement"/>
+          <include name="verifyEmploymentStatusManagement"/>
         </methods>
       </class> <!-- com.orangehrm.tests.AdminTests -->
-      <class name="com.orangehrm.tests.LeaveTests">
-        <methods>
-          <include name="verifyLeaveReportsNavigation"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyLeaveEntitlementsNavigation"/>
-        </methods>
-      </class> <!-- com.orangehrm.tests.LeaveTests -->
     </classes>
-  </test> <!-- Firefox Tests(failed) -->
+  </test> <!-- Chrome Tests(failed) -->
 </suite> <!-- Failed suite [OrangeHRM Test Suite] -->

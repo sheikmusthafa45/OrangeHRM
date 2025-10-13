@@ -56,8 +56,10 @@ public class TestListener implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
-		testThread.get().log(Status.SKIP, "Test Skipped: " + result.getThrowable());
-		log.warn("SKIPPED TEST: " + result.getMethod().getMethodName());
+	    Throwable t = result.getThrowable();
+	    String msg = "Test Skipped" + (t != null ? (": " + t) : "");
+	    testThread.get().log(Status.SKIP, msg);
+	    log.warn("SKIPPED TEST: {}", result.getMethod().getMethodName());
 	}
 
 	@Override

@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-
 public class LoginPage extends BasePage {
 
     private static final Logger log = LoggerUtil.getLogger(LoginPage.class);
@@ -38,14 +37,12 @@ public class LoginPage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-
     public void login(String username, String password) {
         log.info("Attempting login with Username: {}", username);
         type(usernameField, username);
         type(passwordField, password);
         click(loginButton);
     }
-
 
     public boolean isLoginPageVisible() {
         try {
@@ -55,7 +52,6 @@ public class LoginPage extends BasePage {
         }
     }
 
-
     public String getErrorText() {
         try {
             return wait.until(ExpectedConditions.visibilityOf(errorMessage)).getText();
@@ -64,7 +60,6 @@ public class LoginPage extends BasePage {
         }
     }
 
-
     public boolean hasRequiredValidation() {
         try {
             return wait.until(ExpectedConditions.visibilityOf(requiredBadge)).isDisplayed();
@@ -72,7 +67,6 @@ public class LoginPage extends BasePage {
             return false;
         }
     }
-
 
     public void logout() {
         try {

@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orangehrm.tests.LeaveTests">
+      <class name="com.orangehrm.tests.AdminTests">
         <methods>
-          <include name="step4_entitlementsList"/>
-          <include name="setup"/>
-          <include name="step1_applyLeave"/>
-          <include name="step5_leaveBalanceReport"/>
-          <include name="step2_assignLeave"/>
           <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyUserManagementFunctionality" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.orangehrm.tests.LeaveTests -->
+      </class> <!-- com.orangehrm.tests.AdminTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
